@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  mc2-team16
+//  Mini Challenge 2 Team 16
 //
-//  Created by Vincensa Regina on 10/06/22.
+//  Created by Ilham Wibowo on 10/06/22.
 //
 
 import UIKit
@@ -41,7 +41,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          application to it. This property is optional since there are legitimate
          error conditions that could cause the creation of the store to fail.
         */
-        let container = NSPersistentContainer(name: "mc2_team16")
+        let container = NSPersistentContainer(name: "Mini_Challenge_2_Team_16")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.

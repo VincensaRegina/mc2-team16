@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  mc2-team16
+//  Mini Challenge 2 Team 16
 //
-//  Created by Vincensa Regina on 10/06/22.
+//  Created by Ilham Wibowo on 10/06/22.
 //
 
 import UIKit
