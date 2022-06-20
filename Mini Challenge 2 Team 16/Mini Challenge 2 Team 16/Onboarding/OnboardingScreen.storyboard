@@ -17,88 +17,144 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="dQz-4Q-j5C">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="dQz-4Q-j5C">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="QL0-IE-unW">
-                                    <size key="itemSize" width="128" height="128"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="QL0-IE-unW">
+                                    <size key="itemSize" width="417" height="664"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Vbq-hY-fdU">
-                                        <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="OnboardingCollectionViewCell" id="Vbq-hY-fdU" customClass="OnboardingCollectionViewCell" customModule="Mini_Challenge_2_Team_16" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="116" width="417" height="664"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="DMB-TE-aEa">
-                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="417" height="664"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="TIg-LS-XiU">
+                                                    <rect key="frame" x="35" y="392" width="347" height="155.5"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Set Aside Your Pocket Money" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RnV-4H-B0a">
+                                                            <rect key="frame" x="0.0" y="0.0" width="347" height="65.5"/>
+                                                            <fontDescription key="fontDescription" name="CeraRoundPro-Bold" family="Cera Round Pro" pointSize="28"/>
+                                                            <color key="textColor" red="0.5607843137254902" green="0.25882352941176467" blue="0.94117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qvb-f2-HmI">
+                                                            <rect key="frame" x="0.0" y="115.5" width="347" height="40"/>
+                                                            <attributedString key="attributedText">
+                                                                <fragment content="Don't waste all your money! You can save it for bigger things or even your future ">
+                                                                    <attributes>
+                                                                        <color key="NSColor" red="0.5607843137254902" green="0.25882352941176467" blue="0.94117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                        <font key="NSFont" size="17" name="NunitoSans-Bold"/>
+                                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstItem="qvb-f2-HmI" firstAttribute="top" secondItem="RnV-4H-B0a" secondAttribute="bottom" constant="50" id="8Ro-8P-aM1"/>
+                                                    </constraints>
+                                                </stackView>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yXR-BY-dNJ">
+                                                    <rect key="frame" x="66" y="62" width="285" height="273"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="285" id="gJM-9v-kQu"/>
+                                                        <constraint firstAttribute="height" constant="273" id="i6V-ok-LTg"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VA6-ZT-8yd">
+                                                    <rect key="frame" x="319" y="583.5" width="48" height="30.5"/>
+                                                    <color key="tintColor" red="0.52549019607843139" green="0.14901960784313725" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="Button">
+                                                        <attributedString key="attributedTitle">
+                                                            <fragment content="Next &gt;">
+                                                                <attributes>
+                                                                    <color key="NSColor" red="0.52549019607843139" green="0.14901960784313725" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <font key="NSFont" size="16" name="NunitoSans-ExtraBold"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="nextBtnClicked:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="hiI-B1-EWn"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RWK-KZ-R2y">
+                                                    <rect key="frame" x="50" y="583.5" width="32" height="30.5"/>
+                                                    <color key="tintColor" red="0.52549019610000003" green="0.14901960780000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="Button">
+                                                        <attributedString key="attributedTitle">
+                                                            <fragment content="Skip">
+                                                                <attributes>
+                                                                    <color key="NSColor" red="0.52549019607843139" green="0.14901960784313725" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <font key="NSFont" size="16" name="NunitoSans-Regular"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="skipBtnClicked:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="BqA-Gt-eSH"/>
+                                                    </connections>
+                                                </button>
+                                                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="rNX-hf-bWd">
+                                                    <rect key="frame" x="151" y="478" width="115.5" height="26"/>
+                                                    <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="currentPageIndicatorTintColor" red="0.52549019610000003" green="0.14901960780000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </pageControl>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="yXR-BY-dNJ" secondAttribute="trailing" constant="66" id="Am7-f2-AGY"/>
+                                                <constraint firstItem="yXR-BY-dNJ" firstAttribute="top" secondItem="DMB-TE-aEa" secondAttribute="top" constant="62" id="BD8-Og-Afl"/>
+                                                <constraint firstAttribute="bottom" secondItem="VA6-ZT-8yd" secondAttribute="bottom" constant="50" id="Ewk-Q7-07T"/>
+                                                <constraint firstAttribute="trailing" secondItem="VA6-ZT-8yd" secondAttribute="trailing" constant="50" id="FkX-ed-Zxc"/>
+                                                <constraint firstItem="rNX-hf-bWd" firstAttribute="centerX" secondItem="DMB-TE-aEa" secondAttribute="centerX" id="OhB-vf-KlT"/>
+                                                <constraint firstAttribute="bottom" secondItem="rNX-hf-bWd" secondAttribute="bottom" constant="160" id="Sfh-BA-jVA"/>
+                                                <constraint firstItem="TIg-LS-XiU" firstAttribute="top" secondItem="yXR-BY-dNJ" secondAttribute="bottom" constant="57" id="cli-d8-89v"/>
+                                                <constraint firstAttribute="bottom" secondItem="RWK-KZ-R2y" secondAttribute="bottom" constant="50" id="eJs-2z-Qre"/>
+                                                <constraint firstItem="yXR-BY-dNJ" firstAttribute="leading" secondItem="DMB-TE-aEa" secondAttribute="leading" constant="66" id="jYW-hY-QEB"/>
+                                                <constraint firstAttribute="trailing" secondItem="TIg-LS-XiU" secondAttribute="trailing" constant="35" id="kFR-0E-2yZ"/>
+                                                <constraint firstItem="RWK-KZ-R2y" firstAttribute="leading" secondItem="DMB-TE-aEa" secondAttribute="leading" constant="50" id="lqA-O8-FA5"/>
+                                                <constraint firstItem="TIg-LS-XiU" firstAttribute="leading" secondItem="DMB-TE-aEa" secondAttribute="leading" constant="35" id="sa1-04-gf9"/>
+                                            </constraints>
                                         </collectionViewCellContentView>
+                                        <color key="backgroundColor" red="0.83137254901960778" green="0.792156862745098" blue="1" alpha="0.84705882352941175" colorSpace="calibratedRGB"/>
+                                        <size key="customSize" width="417" height="664"/>
+                                        <connections>
+                                            <outlet property="nextBtn" destination="VA6-ZT-8yd" id="9QH-X3-LQI"/>
+                                            <outlet property="pageControl" destination="rNX-hf-bWd" id="cPb-IP-EgS"/>
+                                            <outlet property="skipBtn" destination="RWK-KZ-R2y" id="BbE-9q-8U3"/>
+                                            <outlet property="slideDescriptionLbl" destination="qvb-f2-HmI" id="v0z-9X-QOv"/>
+                                            <outlet property="slideImageView" destination="yXR-BY-dNJ" id="R2I-Q7-xWn"/>
+                                            <outlet property="slideTitleLbl" destination="RnV-4H-B0a" id="agt-ce-Q01"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="Y6W-OH-hqX" id="W6g-Z4-BcE"/>
+                                    <outlet property="delegate" destination="Y6W-OH-hqX" id="tid-kp-spt"/>
+                                </connections>
                             </collectionView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VA6-ZT-8yd">
-                                <rect key="frame" x="316" y="781.5" width="48" height="30.5"/>
-                                <color key="tintColor" red="0.52549019607843139" green="0.14901960784313725" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Button">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Next &gt;">
-                                            <attributes>
-                                                <color key="NSColor" red="0.52549019607843139" green="0.14901960784313725" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="16" name="NunitoSans-ExtraBold"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                                <connections>
-                                    <action selector="nextBtnClicked:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="hiI-B1-EWn"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RWK-KZ-R2y">
-                                <rect key="frame" x="50" y="781.5" width="32" height="30.5"/>
-                                <color key="tintColor" red="0.52549019610000003" green="0.14901960780000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Button">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Skip">
-                                            <attributes>
-                                                <color key="NSColor" red="0.52549019607843139" green="0.14901960784313725" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="16" name="NunitoSans-Regular"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                                <connections>
-                                    <action selector="skipBtnClicked:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="BqA-Gt-eSH"/>
-                                </connections>
-                            </button>
-                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="rNX-hf-bWd">
-                                <rect key="frame" x="149" y="674" width="116" height="26"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="pageIndicatorTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="currentPageIndicatorTintColor" red="0.52549019610000003" green="0.14901960780000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </pageControl>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
-                        <color key="backgroundColor" red="0.83137254901960778" green="0.792156862745098" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="VA6-ZT-8yd" secondAttribute="bottom" constant="50" id="0tO-eP-RGp"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="RWK-KZ-R2y" secondAttribute="bottom" constant="50" id="9vV-Pl-Vtt"/>
                             <constraint firstItem="dQz-4Q-j5C" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="BFj-3T-IHK"/>
-                            <constraint firstItem="RWK-KZ-R2y" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="50" id="CTw-FN-pNm"/>
                             <constraint firstItem="dQz-4Q-j5C" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="IvI-MD-8sR"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="VA6-ZT-8yd" secondAttribute="trailing" constant="50" id="f9V-WA-l9a"/>
                             <constraint firstAttribute="bottom" secondItem="dQz-4Q-j5C" secondAttribute="bottom" id="xqI-4B-gwP"/>
                             <constraint firstAttribute="trailing" secondItem="dQz-4Q-j5C" secondAttribute="trailing" id="xxL-01-U4C"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="nextBtnOnboarding" destination="VA6-ZT-8yd" id="5Ke-Vp-jVh"/>
                         <outlet property="onboardingCollectionView" destination="dQz-4Q-j5C" id="PWm-nB-Thh"/>
-                        <outlet property="pageControlOnboarding" destination="rNX-hf-bWd" id="Gfq-cL-Bzc"/>
-                        <outlet property="skipBtnOnboarding" destination="RWK-KZ-R2y" id="DwH-QF-iHa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
