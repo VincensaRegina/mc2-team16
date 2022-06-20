@@ -20,6 +20,7 @@
 		A29DCA732860632600D67F77 /* OverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29DCA722860632600D67F77 /* OverviewViewController.swift */; };
 		A29DCA752860646000D67F77 /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29DCA742860646000D67F77 /* JournalViewController.swift */; };
 		A29DCA772860647D00D67F77 /* MissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29DCA762860647D00D67F77 /* MissionViewController.swift */; };
+		A29DCA7A28606A0300D67F77 /* Journal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A29DCA7928606A0300D67F77 /* Journal.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		A29DCA722860632600D67F77 /* OverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewViewController.swift; sourceTree = "<group>"; };
 		A29DCA742860646000D67F77 /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
 		A29DCA762860647D00D67F77 /* MissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionViewController.swift; sourceTree = "<group>"; };
+		A29DCA7928606A0300D67F77 /* Journal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Journal.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				A29DCA722860632600D67F77 /* OverviewViewController.swift */,
 				A29DCA742860646000D67F77 /* JournalViewController.swift */,
 				A29DCA762860647D00D67F77 /* MissionViewController.swift */,
+				A29DCA7928606A0300D67F77 /* Journal.storyboard */,
 			);
 			path = "Mini Challenge 2 Team 16";
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A29DCA7A28606A0300D67F77 /* Journal.storyboard in Resources */,
 				6787C40E2853445E00BDBDCD /* LaunchScreen.storyboard in Resources */,
 				1D4C06EA28605B6600E2E9D6 /* OnboardingScreen.storyboard in Resources */,
 				6787C40B2853445E00BDBDCD /* Assets.xcassets in Resources */,
@@ -328,7 +332,6 @@
 				INFOPLIST_FILE = "Mini Challenge 2 Team 16/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
@@ -357,7 +360,6 @@
 				INFOPLIST_FILE = "Mini Challenge 2 Team 16/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
