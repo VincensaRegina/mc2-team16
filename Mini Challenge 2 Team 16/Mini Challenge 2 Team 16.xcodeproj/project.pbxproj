@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D4C06E62860563600E2E9D6 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4C06E52860563600E2E9D6 /* OnboardingViewController.swift */; };
+		1D4C06EA28605B6600E2E9D6 /* OnboardingScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D4C06E928605B6600E2E9D6 /* OnboardingScreen.storyboard */; };
 		6787C3FF2853445D00BDBDCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6787C3FE2853445D00BDBDCD /* AppDelegate.swift */; };
 		6787C4012853445D00BDBDCD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6787C4002853445D00BDBDCD /* SceneDelegate.swift */; };
 		6787C4032853445D00BDBDCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6787C4022853445D00BDBDCD /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D4C06E52860563600E2E9D6 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		1D4C06E928605B6600E2E9D6 /* OnboardingScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnboardingScreen.storyboard; sourceTree = "<group>"; };
 		6787C3FB2853445D00BDBDCD /* Mini Challenge 2 Team 16.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mini Challenge 2 Team 16.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6787C3FE2853445D00BDBDCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6787C4002853445D00BDBDCD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +43,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D4C06E2286055EF00E2E9D6 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				1D4C06E52860563600E2E9D6 /* OnboardingViewController.swift */,
+				1D4C06E928605B6600E2E9D6 /* OnboardingScreen.storyboard */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
 		6787C3F22853445D00BDBDCD = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +71,7 @@
 		6787C3FD2853445D00BDBDCD /* Mini Challenge 2 Team 16 */ = {
 			isa = PBXGroup;
 			children = (
+				1D4C06E2286055EF00E2E9D6 /* Onboarding */,
 				6787C3FE2853445D00BDBDCD /* AppDelegate.swift */,
 				6787C4002853445D00BDBDCD /* SceneDelegate.swift */,
 				6787C4022853445D00BDBDCD /* ViewController.swift */,
@@ -129,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6787C40E2853445E00BDBDCD /* LaunchScreen.storyboard in Resources */,
+				1D4C06EA28605B6600E2E9D6 /* OnboardingScreen.storyboard in Resources */,
 				6787C40B2853445E00BDBDCD /* Assets.xcassets in Resources */,
 				6787C4062853445D00BDBDCD /* Main.storyboard in Resources */,
 			);
@@ -143,6 +158,7 @@
 			files = (
 				6787C4032853445D00BDBDCD /* ViewController.swift in Sources */,
 				6787C4092853445D00BDBDCD /* Mini_Challenge_2_Team_16.xcdatamodeld in Sources */,
+				1D4C06E62860563600E2E9D6 /* OnboardingViewController.swift in Sources */,
 				6787C3FF2853445D00BDBDCD /* AppDelegate.swift in Sources */,
 				6787C4012853445D00BDBDCD /* SceneDelegate.swift in Sources */,
 			);
