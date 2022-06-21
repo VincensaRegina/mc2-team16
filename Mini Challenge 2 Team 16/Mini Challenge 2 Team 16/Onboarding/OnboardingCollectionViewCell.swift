@@ -17,11 +17,6 @@ class OnboardingCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var slideBackgroundImage: UIImageView!
     
     
-    @IBOutlet weak var nextBtn: UIButton!
-    @IBOutlet weak var skipBtn: UIButton!
-    @IBOutlet weak var pageControl: UIPageControl!
-    
-    
     func setup(_ slide: OnboardingSlide){
         slideImageView.image = slide.image
         slideTitleLbl.text = slide.title

@@ -10,6 +10,9 @@ import UIKit
 class OnboardingViewController: UIViewController {
 
     @IBOutlet weak var onboardingCollectionView: UICollectionView!
+    @IBOutlet weak var pageControl: UIPageControl!
+    @IBOutlet weak var nextBtn: UIButton!
+    @IBOutlet weak var skipBtn: UIButton!
     
     var slides: [OnboardingSlide] = []
     
