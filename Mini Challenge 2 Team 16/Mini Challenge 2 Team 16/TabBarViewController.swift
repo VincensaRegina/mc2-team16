@@ -11,22 +11,6 @@ class TabBarViewController: UITabBarController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //        let overviewVC = UINavigationController(rootViewController: OverviewViewController())
-        //        let journalVC = UINavigationController(rootViewController: JournalViewController())
-        //        let missionVC = UINavigationController(rootViewController: MissionViewController())
-        //
-        //        overviewVC.tabBarItem = UITabBarItem(title: "Overview", image: UIImage(systemName: "house"), tag: 0)
-        //        journalVC.tabBarItem = UITabBarItem(title: "Journal", image: UIImage(systemName: "list.bullet"), tag: 1)
-        //        missionVC.tabBarItem = UITabBarItem(title: "Missions", image: UIImage(systemName: "bag"), tag: 2)
-        //
-        //        // Do any additional setup after loading the view.
-        //        viewControllers = [overviewVC, journalVC, missionVC]
-        
-        //        view.backgroundColor = .systemBackground
-        //        UITabBar.appearance().barTintColor = .systemBackground
-        //        tabBar.tintColor = .label
-        //        setupVCs()
-        
         let journalStoryboard = UIStoryboard(name: "Journal", bundle: nil)
         let overviewVC = journalStoryboard.instantiateViewController(withIdentifier: "JournalViewController")
         overviewVC.tabBarItem.image =  UIImage(systemName: "house")
@@ -46,26 +30,6 @@ class TabBarViewController: UITabBarController {
         
         viewControllers = [overviewVC, journalVC, missionVC]
     }
-    
-    func setupVCs() {
-        viewControllers = [
-            createNavController(for: OverviewViewController(), title: NSLocalizedString("Overview", comment: ""), image: UIImage(systemName: "house")!),
-            createNavController(for: JournalViewController(), title: NSLocalizedString("Journal", comment: ""), image: UIImage(systemName: "list.bullet")!),
-            createNavController(for: MissionViewController(), title: NSLocalizedString("Mission", comment: ""), image: UIImage(systemName: "bag")!)
-        ]
-    }
-    
-    fileprivate func createNavController(for rootViewController: UIViewController,
-                                         title: String,
-                                         image: UIImage) -> UIViewController {
-        let navController = UINavigationController(rootViewController: rootViewController)
-        navController.tabBarItem.title = title
-        navController.tabBarItem.image = image
-        navController.navigationBar.prefersLargeTitles = true
-        rootViewController.navigationItem.title = title
-        return navController
-    }
-    
     
     /*
      // MARK: - Navigation
