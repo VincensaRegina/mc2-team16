@@ -14,6 +14,7 @@ class OnboardingCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var slideImageView: UIImageView!
     @IBOutlet weak var slideTitleLbl: UILabel!
     @IBOutlet weak var slideDescriptionLbl: UILabel!
+    @IBOutlet weak var slideBackgroundImage: UIImageView!
     
     
     @IBOutlet weak var nextBtn: UIButton!
@@ -25,5 +26,6 @@ class OnboardingCollectionViewCell: UICollectionViewCell {
         slideImageView.image = slide.image
         slideTitleLbl.text = slide.title
         slideDescriptionLbl.text = slide.description
+        slideBackgroundImage.image = slide.background
     }
 }
