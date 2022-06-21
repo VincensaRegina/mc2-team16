@@ -99,43 +99,30 @@
                                     <outlet property="delegate" destination="Y6W-OH-hqX" id="tid-kp-spt"/>
                                 </connections>
                             </collectionView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VA6-ZT-8yd">
-                                <rect key="frame" x="316" y="781.5" width="48" height="30.5"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VA6-ZT-8yd">
+                                <rect key="frame" x="316" y="781" width="48" height="31"/>
+                                <fontDescription key="fontDescription" name="NunitoSans-ExtraBold" family="Nunito Sans" pointSize="16"/>
                                 <color key="tintColor" red="0.52549019607843139" green="0.14901960784313725" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Button">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Next &gt;">
-                                            <attributes>
-                                                <color key="NSColor" red="0.52549019607843139" green="0.14901960784313725" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="16" name="NunitoSans-ExtraBold"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <state key="normal" title="Next &gt;">
+                                    <color key="titleColor" red="0.52549019607843139" green="0.14901960784313725" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="nextBtnClicked:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="hiI-B1-EWn"/>
                                 </connections>
                             </button>
-                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="rNX-hf-bWd">
-                                <rect key="frame" x="149.5" y="686" width="115.5" height="26"/>
+                            <pageControl opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="rNX-hf-bWd">
+                                <rect key="frame" x="149.5" y="706" width="115.5" height="26"/>
                                 <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="currentPageIndicatorTintColor" red="0.52549019610000003" green="0.14901960780000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </pageControl>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RWK-KZ-R2y">
-                                <rect key="frame" x="50" y="781.5" width="32" height="30.5"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RWK-KZ-R2y">
+                                <rect key="frame" x="50" y="781" width="32" height="31"/>
+                                <fontDescription key="fontDescription" name="NunitoSans-Regular" family="Nunito Sans" pointSize="16"/>
                                 <color key="tintColor" red="0.52549019610000003" green="0.14901960780000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Button">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Skip">
-                                            <attributes>
-                                                <color key="NSColor" red="0.52549019607843139" green="0.14901960784313725" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="16" name="NunitoSans-Regular"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                <state key="normal" title="Skip">
+                                    <color key="titleColor" red="0.52549019607843139" green="0.14901960784313725" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="skipBtnClicked:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="BqA-Gt-eSH"/>
@@ -151,14 +138,16 @@
                             <constraint firstItem="RWK-KZ-R2y" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="50" id="J7m-b5-emn"/>
                             <constraint firstItem="rNX-hf-bWd" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="bqJ-zV-dTm"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="VA6-ZT-8yd" secondAttribute="bottom" constant="50" id="plh-QH-7cj"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="rNX-hf-bWd" secondAttribute="bottom" constant="150" id="spF-zA-3Hv"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="rNX-hf-bWd" secondAttribute="bottom" constant="130" id="spF-zA-3Hv"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="VA6-ZT-8yd" secondAttribute="trailing" constant="50" id="xK7-hr-m4G"/>
                             <constraint firstAttribute="bottom" secondItem="dQz-4Q-j5C" secondAttribute="bottom" id="xqI-4B-gwP"/>
                             <constraint firstAttribute="trailing" secondItem="dQz-4Q-j5C" secondAttribute="trailing" id="xxL-01-U4C"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="nextBtn" destination="VA6-ZT-8yd" id="jsY-Z4-xRr"/>
                         <outlet property="onboardingCollectionView" destination="dQz-4Q-j5C" id="PWm-nB-Thh"/>
+                        <outlet property="pageControl" destination="rNX-hf-bWd" id="NDs-z8-uPb"/>
                         <outlet property="skipBtn" destination="RWK-KZ-R2y" id="SqF-Sf-CWS"/>
                     </connections>
                 </viewController>
