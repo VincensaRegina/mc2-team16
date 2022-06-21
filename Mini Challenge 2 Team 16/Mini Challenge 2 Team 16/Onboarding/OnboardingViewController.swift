@@ -23,7 +23,7 @@ class OnboardingViewController: UIViewController {
         OnboardingSlide(title: "Hit Your Financial Goals!",
                         description: "You can track your money so you know exactly how much money left that you need with Stashy!",
                         image: #imageLiteral(resourceName: "onboarding2"),
-                        background: #imageLiteral(resourceName: "goal"),
+                        background: #imageLiteral(resourceName: "Goal"),
                        textColor: "Blue"),
         OnboardingSlide(title: "Finish Missions and Get Reward!",
                         description: "Your parents will set missions for you to achieve. Of course, you will also get additional pocket money!",
@@ -56,6 +56,10 @@ class OnboardingViewController: UIViewController {
         }
     }
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+    }
     
     @IBAction func nextBtnClicked(_ sender: Any) {
         if currentPage == slides.count - 1 {
