@@ -14,7 +14,23 @@ class OnboardingViewController: UIViewController {
     @IBOutlet weak var pageControl: UIPageControl!
     @IBOutlet weak var nextBtn: UIButton!
     
-    var slides: [OnboardingSlide] = []
+    var slides: [OnboardingSlide] = [
+        OnboardingSlide(title: "Set Aside Your Pocket Money",
+                        description: "Don’t waste all your pocket money! You can save it for bigger things or even your future.",
+                        image: #imageLiteral(resourceName: "onboarding1"),
+                        background: #imageLiteral(resourceName: "saving"),
+                       textColor: "Purple"),
+        OnboardingSlide(title: "Hit Your Financial Goals!",
+                        description: "You can track your money so you know exactly how much money left that you need with Stashy!",
+                        image: #imageLiteral(resourceName: "onboarding2"),
+                        background: #imageLiteral(resourceName: "goal"),
+                       textColor: "Blue"),
+        OnboardingSlide(title: "Finish Missions and Get Reward!",
+                        description: "Your parents will set missions for you to achieve. Of course, you will also get additional pocket money!",
+                        image: #imageLiteral(resourceName: "onboarding3"),
+                        background: #imageLiteral(resourceName: "mission"),
+                       textColor: "Green")
+            ]
     
     var currentPage = 0 {
         didSet {
@@ -38,25 +54,6 @@ class OnboardingViewController: UIViewController {
                 pageControl.currentPageIndicatorTintColor = UIColor(named: "Purple")
             }
         }
-    }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        slides = [
-            OnboardingSlide(title: "Set Aside Your Pocket Money",
-                            description: "Don’t waste all your pocket money! You can save it for bigger things or even your future.",
-                            image: #imageLiteral(resourceName: "onboarding1"),
-                            background: #imageLiteral(resourceName: "saving")),
-            OnboardingSlide(title: "Hit Your Financial Goals!",
-                            description: "You can track your money so you know exactly how much money left that you need with Stashy!",
-                            image: #imageLiteral(resourceName: "onboarding2"),
-                            background: #imageLiteral(resourceName: "goal")),
-            OnboardingSlide(title: "Finish Missions and Get Reward!",
-                            description: "Your parents will set missions for you to achieve. Of course, you will also get additional pocket money!",
-                            image: #imageLiteral(resourceName: "onboarding3"),
-                            background: #imageLiteral(resourceName: "mission")),
-                ]
     }
     
     

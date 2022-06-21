@@ -22,5 +22,8 @@ class OnboardingCollectionViewCell: UICollectionViewCell {
         slideTitleLbl.text = slide.title
         slideDescriptionLbl.text = slide.description
         slideBackgroundImage.image = slide.background
+        
+        slideTitleLbl.textColor = UIColor(named: slide.textColor)
+        slideDescriptionLbl.textColor = UIColor(named: slide.textColor)
     }
 }
