@@ -9,6 +9,17 @@ import UIKit
 
 class JournalViewController: UIViewController {
 
+    @IBOutlet weak var btnGoal: UIButton!
+    @IBOutlet weak var txtCurrBalance: UILabel!
+    @IBOutlet weak var pbGoal: UIProgressView!
+    @IBOutlet weak var txtGoalAmount: UILabel!
+    @IBOutlet weak var txtDate: UILabel!
+    @IBOutlet weak var scSection: UISegmentedControl!
+    @IBOutlet weak var btnLeft: UIButton!
+    @IBOutlet weak var btnRight: UIButton!
+    @IBOutlet weak var tbJournal: UITableView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
