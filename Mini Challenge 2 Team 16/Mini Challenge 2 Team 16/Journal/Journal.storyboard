@@ -84,6 +84,7 @@
                                     <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="uIJ-7f-0qx">
                                         <rect key="frame" x="12" y="70" width="307" height="4"/>
                                         <color key="tintColor" systemColor="systemGreenColor"/>
+                                        <color key="trackTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </progressView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="50%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z90-Nw-FSJ">
                                         <rect key="frame" x="327" y="62" width="26" height="17"/>
@@ -187,6 +188,7 @@
                         <outlet property="txtCurrBalance" destination="HRk-BM-Vxd" id="5ED-Va-iKu"/>
                         <outlet property="txtDate" destination="mOJ-1p-5Gm" id="Hew-aP-ebM"/>
                         <outlet property="txtGoalAmount" destination="HRk-BM-Vxd" id="eGO-tb-wle"/>
+                        <outlet property="txtPercent" destination="z90-Nw-FSJ" id="7o7-3z-NPS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

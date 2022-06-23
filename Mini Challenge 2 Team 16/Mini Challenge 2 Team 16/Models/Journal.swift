@@ -36,13 +36,42 @@ extension Calendar {
     }
 }
 
-func dateSeeder() {
-    let formatter = DateFormatter()
-    formatter.dateFormat = "dd/MM/yyyy"
+//func dateSeeder() {
+//    let formatter = DateFormatter()
+//    formatter.dateFormat = "dd/MM/yyyy"
 //
 //    var test = Calendar.numberOfDaysBetween(formatter.date(from: "01/01/2000")!, and: formatter.date(from: "01/01/2022")!)
+//
+//
+//}
+
+func journalSeeder() -> [Journal] {
+    // Date Formatter
+    let formatter = DateFormatter()
+    formatter.dateFormat = "dd/MM/yyyy"
     
-    
+    return [
+        Journal.init(name: "Expense", desc: "Jajan", type: "expense", date: formatter.date(from: "01/06/2022")!, amount: 5000, exp: -5),
+        Journal.init(name: "Income", desc: "Uang saku", type: "income", date: formatter.date(from: "01/06/2022")!, amount: 10000, exp: 10),
+        Journal.init(name: "Expense", desc: "Beli permen", type: "expense", date: formatter.date(from: "02/06/2022")!, amount: 10000, exp: 10)
+        
+    ]
 }
+
+func dateSeeder() -> [Date] {
+    // Date Formatter
+    let formatter = DateFormatter()
+    formatter.dateFormat = "dd/MM/yyyy"
+    
+    return [
+        formatter.date(from: "01/06/2022")!,
+        formatter.date(from: "02/06/2022")!
+    ]
+}
+
+
+
+var journalSeed = journalSeeder()
+var dateSeed = dateSeeder()
 
 

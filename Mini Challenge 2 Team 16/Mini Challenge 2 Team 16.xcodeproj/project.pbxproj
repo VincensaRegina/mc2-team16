@@ -40,6 +40,9 @@
 		6787C40B2853445E00BDBDCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6787C40A2853445E00BDBDCD /* Assets.xcassets */; };
 		6787C40E2853445E00BDBDCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6787C40C2853445E00BDBDCD /* LaunchScreen.storyboard */; };
 		A22AFBD52862E18F00EE6CDC /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22AFBD42862E18F00EE6CDC /* Journal.swift */; };
+		A22AFBD92864208B00EE6CDC /* JournalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22AFBD72864208B00EE6CDC /* JournalTableViewCell.swift */; };
+		A22AFBDA2864208B00EE6CDC /* JournalTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A22AFBD82864208B00EE6CDC /* JournalTableViewCell.xib */; };
+		A22AFBDC28643ECA00EE6CDC /* JournalHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22AFBDB28643ECA00EE6CDC /* JournalHeaderView.swift */; };
 		A29DCA71286062E600D67F77 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29DCA70286062E600D67F77 /* TabBarViewController.swift */; };
 		A29DCA732860632600D67F77 /* OverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29DCA722860632600D67F77 /* OverviewViewController.swift */; };
 		A29DCA752860646000D67F77 /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29DCA742860646000D67F77 /* JournalViewController.swift */; };
@@ -83,6 +86,9 @@
 		6787C40D2853445E00BDBDCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6787C40F2853445E00BDBDCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A22AFBD42862E18F00EE6CDC /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
+		A22AFBD72864208B00EE6CDC /* JournalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalTableViewCell.swift; sourceTree = "<group>"; };
+		A22AFBD82864208B00EE6CDC /* JournalTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JournalTableViewCell.xib; sourceTree = "<group>"; };
+		A22AFBDB28643ECA00EE6CDC /* JournalHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalHeaderView.swift; sourceTree = "<group>"; };
 		A29DCA70286062E600D67F77 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		A29DCA722860632600D67F77 /* OverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewViewController.swift; sourceTree = "<group>"; };
 		A29DCA742860646000D67F77 /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
@@ -207,6 +213,9 @@
 			children = (
 				A29DCA742860646000D67F77 /* JournalViewController.swift */,
 				A29DCA7928606A0300D67F77 /* Journal.storyboard */,
+				A22AFBD72864208B00EE6CDC /* JournalTableViewCell.swift */,
+				A22AFBD82864208B00EE6CDC /* JournalTableViewCell.xib */,
+				A22AFBDB28643ECA00EE6CDC /* JournalHeaderView.swift */,
 			);
 			path = Journal;
 			sourceTree = "<group>";
@@ -269,6 +278,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A22AFBDA2864208B00EE6CDC /* JournalTableViewCell.xib in Resources */,
 				A29DCA7A28606A0300D67F77 /* Journal.storyboard in Resources */,
 				1D4C0715286067D500E2E9D6 /* TypeMates  CeraRoundProMedium.otf in Resources */,
 				1D4C0713286067D500E2E9D6 /* TypeMates  CeraRoundProThin.otf in Resources */,
@@ -307,10 +317,12 @@
 			files = (
 				A29DCA752860646000D67F77 /* JournalViewController.swift in Sources */,
 				6787C4032853445D00BDBDCD /* ViewController.swift in Sources */,
+				A22AFBD92864208B00EE6CDC /* JournalTableViewCell.swift in Sources */,
 				6787C4092853445D00BDBDCD /* Mini_Challenge_2_Team_16.xcdatamodeld in Sources */,
 				A29DCA772860647D00D67F77 /* MissionViewController.swift in Sources */,
 				A29DCA732860632600D67F77 /* OverviewViewController.swift in Sources */,
 				1D4C06E62860563600E2E9D6 /* OnboardingViewController.swift in Sources */,
+				A22AFBDC28643ECA00EE6CDC /* JournalHeaderView.swift in Sources */,
 				6787C3FF2853445D00BDBDCD /* AppDelegate.swift in Sources */,
 				A29DCA71286062E600D67F77 /* TabBarViewController.swift in Sources */,
 				1D4C071A2860969500E2E9D6 /* OnboardingSlide.swift in Sources */,
