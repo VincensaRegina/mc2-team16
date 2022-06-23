@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cVA-Ul-w2J">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -10,7 +10,7 @@
         <!--Onboarding Input View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController id="Y6W-OH-hqX" customClass="OnboardingInputViewController" customModule="Mini_Challenge_2_Team_16" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Main" id="Y6W-OH-hqX" customClass="OnboardingInputViewController" customModule="Mini_Challenge_2_Team_16" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -79,7 +79,7 @@
         <!--Input Name View Controller-->
         <scene sceneID="XvL-bD-Fql">
             <objects>
-                <viewController id="2dB-SL-547" customClass="InputNameViewController" customModule="Mini_Challenge_2_Team_16" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="InputNameViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="2dB-SL-547" customClass="InputNameViewController" customModule="Mini_Challenge_2_Team_16" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kK6-Is-lRQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -128,6 +128,7 @@
                             <constraint firstItem="b8E-1r-8d4" firstAttribute="centerX" secondItem="rXO-Bk-qjK" secondAttribute="centerX" id="zcV-CC-lBl"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="r9t-lF-G7j"/>
                     <connections>
                         <outlet property="namefield" destination="56n-H9-MRg" id="8am-f4-lck"/>
                         <outlet property="namenextbutton" destination="b8E-1r-8d4" id="8YI-Ub-9is"/>
@@ -140,7 +141,7 @@
         <!--Input Goal View Controller-->
         <scene sceneID="5iF-0n-0SJ">
             <objects>
-                <viewController id="u1J-hx-upm" customClass="InputGoalViewController" customModule="Mini_Challenge_2_Team_16" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="InputGoalViewController" id="u1J-hx-upm" customClass="InputGoalViewController" customModule="Mini_Challenge_2_Team_16" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BtU-gt-SzU">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -189,6 +190,7 @@
                             <constraint firstItem="LSN-HD-Jxu" firstAttribute="top" secondItem="7EQ-5c-NZc" secondAttribute="bottom" constant="47" id="ntR-6F-6Mu"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="0WV-lk-OGM"/>
                     <connections>
                         <outlet property="goalfield" destination="7EQ-5c-NZc" id="F3h-Sr-eh6"/>
                         <outlet property="goalnextbutton" destination="LSN-HD-Jxu" id="huG-hB-Hsw"/>
@@ -201,7 +203,7 @@
         <!--Input Starting Balance View Controller-->
         <scene sceneID="2Do-pc-AaJ">
             <objects>
-                <viewController id="64C-qe-lTu" customClass="InputStartingBalanceViewController" customModule="Mini_Challenge_2_Team_16" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="InputStartingBalanceViewController" id="64C-qe-lTu" customClass="InputStartingBalanceViewController" customModule="Mini_Challenge_2_Team_16" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="C1q-fm-Ys0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -217,6 +219,9 @@
                                 <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Save"/>
+                                <connections>
+                                    <action selector="NextGoalbtnAction:" destination="64C-qe-lTu" eventType="touchUpInside" id="iMh-Lh-eA0"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How much money do you have?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aJV-lO-NX3">
                                 <rect key="frame" x="45" y="255" width="324" height="76.5"/>
@@ -247,9 +252,10 @@
                             <constraint firstItem="aJV-lO-NX3" firstAttribute="centerX" secondItem="i5g-MP-Pug" secondAttribute="centerX" id="uQm-33-8pA"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="9uL-b6-Z2b"/>
                     <connections>
-                        <outlet property="namefield" destination="YhH-LR-xuq" id="lD4-p3-l7M"/>
-                        <outlet property="namenextbutton" destination="8dF-LY-idD" id="oVZ-8t-pV0"/>
+                        <outlet property="balancefield" destination="YhH-LR-xuq" id="mpa-kS-ZwN"/>
+                        <outlet property="balancenextbutton" destination="8dF-LY-idD" id="CuN-NH-1ut"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3iV-KY-Xmr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

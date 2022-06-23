@@ -13,6 +13,17 @@ class OnboardingInputViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        //Shadow
+        button.layer.shadowColor = UIColor.black.cgColor
+        button.layer.shadowRadius = 4
+        button.layer.shadowOpacity = 0.25
+        button.layer.shadowOffset = CGSize(width: 0, height: 0)
+        
+        
+        
+        //CornerButton
+        button.layer.cornerRadius = 10
+        button.layer.masksToBounds = true
         
         let label = UILabel()
         label.font = UIFont(name: "CeraRoundPro-Bold", size: 32)
@@ -24,7 +35,7 @@ class OnboardingInputViewController: UIViewController {
     }
     
     @IBAction func GetstartedAction(_ sender: Any) {
-        let namestoryboard = UIStoryboard(name:"Main", bundle: nil)
+        let namestoryboard = UIStoryboard(name:"OnboardingInputScreen", bundle: nil)
         let vc = namestoryboard.instantiateViewController(withIdentifier: "InputNameViewController") as! InputNameViewController
         self.navigationController!.pushViewController(vc, animated: true)
     }

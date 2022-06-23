@@ -14,7 +14,17 @@ class InputNameViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //Shadow
+        namenextbutton.layer.shadowColor = UIColor.black.cgColor
+        namenextbutton.layer.shadowRadius = 4
+        namenextbutton.layer.shadowOpacity = 0.25
+        namenextbutton.layer.shadowOffset = CGSize(width: 0, height: 0)
+        
         namefield.returnKeyType = .done
+        namefield.layer.cornerRadius = 10
+        namefield.layer.masksToBounds = true
+        namenextbutton.layer.cornerRadius = 10
+        namenextbutton.layer.masksToBounds = true
         
         let label = UILabel()
         label.font = UIFont(name: "CeraRoundPro-Bold", size: 32)
@@ -25,7 +35,7 @@ class InputNameViewController: UIViewController {
     
     @IBAction func NextNamebtnAction(_ sender: Any) {
     
-    let namestoryboard = UIStoryboard(name:"Main", bundle: nil)
+    let namestoryboard = UIStoryboard(name:"OnboardingInputScreen", bundle: nil)
     let vc = namestoryboard.instantiateViewController(withIdentifier: "InputGoalViewController") as! InputGoalViewController
     self.navigationController!.pushViewController(vc, animated: true)
     }
