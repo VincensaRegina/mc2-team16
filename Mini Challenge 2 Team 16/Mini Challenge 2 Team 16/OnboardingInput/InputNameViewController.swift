@@ -33,6 +33,11 @@ class InputNameViewController: UIViewController {
         button.titleLabel?.font = UIFont(name: "CeraRoundPro-Bold", size: 20)
     }
     
+//    func setCustomBackColor() {
+//        backIndicatorImage
+//        backBarButtonItem
+//    }
+    
     @IBAction func NextNamebtnAction(_ sender: Any) {
     
     let namestoryboard = UIStoryboard(name:"OnboardingInputScreen", bundle: nil)
