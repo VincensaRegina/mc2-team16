@@ -68,6 +68,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="mF6-ez-y1N"/>
+                    <connections>
+                        <outlet property="button" destination="Mgb-LN-K5Y" id="xxw-XC-aYg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -82,7 +85,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b8E-1r-8d4">
-                                <rect key="frame" x="92" y="474" width="230" height="55"/>
+                                <rect key="frame" x="92" y="473.5" width="230" height="55"/>
                                 <color key="backgroundColor" red="0.97188752889999996" green="0.58105498550000001" blue="0.29833316799999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="MNV-cg-sUP"/>
@@ -97,13 +100,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tell us your name!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vge-bs-Tm9">
-                                <rect key="frame" x="33" y="292" width="348" height="39"/>
+                                <rect key="frame" x="33" y="292" width="348" height="38.5"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
                                 <color key="textColor" red="0.97188752889999996" green="0.58105498550000001" blue="0.29833316799999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="56n-H9-MRg">
-                                <rect key="frame" x="32" y="377" width="350" height="50"/>
+                                <rect key="frame" x="32" y="376.5" width="350" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="qrA-yx-a2x"/>
                                 </constraints>
@@ -125,6 +128,10 @@
                             <constraint firstItem="b8E-1r-8d4" firstAttribute="centerX" secondItem="rXO-Bk-qjK" secondAttribute="centerX" id="zcV-CC-lBl"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="namefield" destination="56n-H9-MRg" id="8am-f4-lck"/>
+                        <outlet property="namenextbutton" destination="b8E-1r-8d4" id="8YI-Ub-9is"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iUi-92-cT6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -182,6 +189,10 @@
                             <constraint firstItem="LSN-HD-Jxu" firstAttribute="top" secondItem="7EQ-5c-NZc" secondAttribute="bottom" constant="47" id="ntR-6F-6Mu"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="goalfield" destination="7EQ-5c-NZc" id="F3h-Sr-eh6"/>
+                        <outlet property="goalnextbutton" destination="LSN-HD-Jxu" id="huG-hB-Hsw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ly1-El-B5j" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -236,6 +247,10 @@
                             <constraint firstItem="aJV-lO-NX3" firstAttribute="centerX" secondItem="i5g-MP-Pug" secondAttribute="centerX" id="uQm-33-8pA"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="namefield" destination="YhH-LR-xuq" id="lD4-p3-l7M"/>
+                        <outlet property="namenextbutton" destination="8dF-LY-idD" id="oVZ-8t-pV0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3iV-KY-Xmr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
