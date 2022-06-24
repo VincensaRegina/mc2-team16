@@ -11,11 +11,22 @@ class InputIncomeViewController: UIViewController {
 
     
     @IBOutlet weak var closeBtn: UIButton!
-    @IBOutlet weak var deleteBtn: UIButton!
+    @IBOutlet weak var saveBtn: UIButton!
+    
+    @IBOutlet weak var moneyLbl: UILabel!
+    @IBOutlet weak var descInput: UITextField!
+    @IBOutlet weak var dateInput: UITextField!
+    
+    
+    @IBOutlet weak var deleteCalc: UIButton!
+    
+    var workings: String = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        clearAll()
+        
         //closeBtn
         let largeConfig = UIImage.SymbolConfiguration(pointSize: 20, weight: .bold, scale: .large)
                
@@ -28,8 +39,68 @@ class InputIncomeViewController: UIViewController {
         
         let BtnDeleteDoc = UIImage(systemName: "delete.backward.fill", withConfiguration: BtnDeleteConfig)
         
-        deleteBtn.setImage(BtnDeleteDoc, for: .normal)
+        deleteCalc.setImage(BtnDeleteDoc, for: .normal)
+    }
+
+    
+    func clearAll() {
+        workings = ""
+        moneyLbl.text = "Rp 0"
     }
     
-
+    @IBAction func clearTap(_ sender: Any) {
+        clearAll()
+    }
+    
+    @IBAction func deleteTap(_ sender: Any) {
+        if (!workings.isEmpty){
+            workings.removeLast()
+            moneyLbl.text = "Rp \(workings)"
+        }
+    }
+    
+    func addToWorkings(value: String) {
+        workings = workings + value
+        moneyLbl.text = "Rp \(workings)"
+    }
+    
+    @IBAction func zeroTap(_ sender: Any) {
+        addToWorkings(value: "0")
+    }
+    
+    @IBAction func oneTap(_ sender: Any) {
+        addToWorkings(value: "1")
+    }
+    
+    @IBAction func twoTap(_ sender: Any) {
+        addToWorkings(value: "2")
+    }
+    
+    @IBAction func threeTap(_ sender: Any) {
+        addToWorkings(value: "3")
+    }
+    
+    @IBAction func fourTap(_ sender: Any) {
+        addToWorkings(value: "4")
+    }
+    
+    @IBAction func fiveTap(_ sender: Any) {
+        addToWorkings(value: "5")
+    }
+    
+    @IBAction func sixTap(_ sender: Any) {
+        addToWorkings(value: "6")
+    }
+    
+    @IBAction func sevenTap(_ sender: Any) {
+        addToWorkings(value: "7")
+    }
+    
+    @IBAction func eightTap(_ sender: Any) {
+        addToWorkings(value: "8")
+    }
+    
+    @IBAction func nineTap(_ sender: Any) {
+        addToWorkings(value: "9")
+    }
 }
