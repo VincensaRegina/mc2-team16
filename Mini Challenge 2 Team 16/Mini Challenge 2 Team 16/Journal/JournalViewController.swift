@@ -42,15 +42,12 @@ class JournalViewController: UIViewController {
     }
     
     private func registerTableView() {
-        // Table View Cells
-        let textFieldCell = UINib(nibName: "JournalTableViewCell", bundle: nil)
-        self.tbJournal.register(textFieldCell, forCellReuseIdentifier: "JournalCustomCell")
+        let textFieldCell = UINib(nibName: sJournal.nibName.rawValue, bundle: nil)
+        self.tbJournal.register(textFieldCell, forCellReuseIdentifier: sJournal.customCell.rawValue)
         
-        // Table Header
         tbJournal.register(JournalHeaderView.self,
-                           forHeaderFooterViewReuseIdentifier: "journalHeader")
+                           forHeaderFooterViewReuseIdentifier: sJournal.header.rawValue)
         
-        //Section Header Height
         self.tbJournal.sectionHeaderHeight = 40
         
     }
@@ -65,13 +62,13 @@ extension JournalViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        if let cell = tableView.dequeueReusableCell(withIdentifier: "JournalCustomCell", for: indexPath) as? JournalTableViewCell {
+        if let cell = tableView.dequeueReusableCell(withIdentifier: sJournal.customCell.rawValue, for: indexPath) as? JournalTableViewCell {
             cell.txtType.text = journalSeed[indexPath.row].name
             cell.txtDesc.text = journalSeed[indexPath.row].desc
             cell.txtAmount.text = "Rp. \(journalSeed[indexPath.row].amount)"
             cell.txtExp.text = "\(journalSeed[indexPath.row].exp) EXP"
             
-            if(journalSeed[indexPath.row].type == "income") {
+            if(journalSeed[indexPath.row].type == sJournal.income.rawValue) {
                 cell.txtAmount.textColor = UIColor.systemGreen
             } else {
                 cell.txtAmount.textColor = UIColor.systemRed
@@ -89,7 +86,7 @@ extension JournalViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let view = tbJournal.dequeueReusableHeaderFooterView(withIdentifier:
-                                                            "journalHeader") as! JournalHeaderView
+                                                                sJournal.header.rawValue) as! JournalHeaderView
         view.txtDate.text = "\(dateSeed[section].formatted(date: .abbreviated, time: .omitted))"
         view.txtTotal.text = "Rp. 100000"
         view.txtTotal.textColor = UIColor.systemGreen

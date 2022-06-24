@@ -28,7 +28,7 @@ class JournalHeaderView: UITableViewHeaderFooterView {
         contentView.addSubview(txtDate)
         contentView.addSubview(txtTotal)
         
-        txtDate.font = UIFont.systemFont(ofSize: 20, weight: .bold)
+        txtDate.font = UIFont.systemFont(ofSize: CGFloat(fontSize.title3.rawValue), weight: .bold)
 //        txtTotal.textColor = UIColor.systemOrange
         
         NSLayoutConstraint.activate([
