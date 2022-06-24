@@ -127,6 +127,9 @@
                                     <segment title="Yearly"/>
                                 </segments>
                                 <color key="selectedSegmentTintColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="valueChanged:" destination="Y6W-OH-hqX" eventType="valueChanged" id="rJY-y9-2dm"/>
+                                </connections>
                             </segmentedControl>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="252" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H7v-5J-xSe">
                                 <rect key="frame" x="20" y="339" width="43" height="31"/>
@@ -138,7 +141,12 @@
                                 <rect key="frame" x="351" y="339" width="43" height="31"/>
                                 <color key="tintColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="arrowtriangle.forward.fill" catalog="system" imagePadding="0.0"/>
+                                <buttonConfiguration key="configuration" style="plain" image="arrowtriangle.forward.fill" catalog="system" title="" imagePadding="0.0"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="pointSize">
+                                        <integer key="value" value="150"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ZmV-y8-hOH">
                                 <rect key="frame" x="20" y="390" width="374" height="472"/>

@@ -20,7 +20,6 @@ class JournalViewController: UIViewController {
     @IBOutlet weak var tbJournal: UITableView!
     @IBOutlet weak var txtPercent: UILabel!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -28,6 +27,18 @@ class JournalViewController: UIViewController {
         tbJournal.delegate = self
         tbJournal.dataSource = self
         self.registerTableView()
+    }
+    
+    @IBAction func valueChanged(_ sender: Any) {
+        switch scSection.selectedSegmentIndex
+            {
+            case 0:
+               break
+            case 1:
+                break
+            default:
+                break
+        }
     }
     
     private func registerTableView() {
