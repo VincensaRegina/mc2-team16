@@ -27,11 +27,11 @@ class InputStartingBalanceViewController: UIViewController {
         balancenextbutton.layer.cornerRadius = 10
         balancenextbutton.layer.masksToBounds = true
         
-        let label = UILabel()
-        label.font = UIFont(name: "CeraRoundPro-Bold", size: 32)
-        
-        let button = UIButton()
-        button.titleLabel?.font = UIFont(name: "CeraRoundPro-Bold", size: 20)
+//        let label = UILabel()
+//        label.font = UIFont(name: "NunitoSans-LightItalic", size: 32)
+//        
+//        let button = UIButton()
+//        button.titleLabel?.font = UIFont(name: "NunitoSans-LightItalic", size: 20)
 
     }
     
