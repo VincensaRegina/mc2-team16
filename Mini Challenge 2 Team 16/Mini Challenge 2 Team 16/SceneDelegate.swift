@@ -16,7 +16,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(frame: UIScreen.main.bounds)
         let home = TabBarViewController()
-        self.window?.rootViewController = home
+        
+        let journalStoryboard = UIStoryboard(name: "InputIncome", bundle: nil)
+        let overviewVC = journalStoryboard.instantiateViewController(withIdentifier: "InputIncomeViewController")
+        
+        self.window?.rootViewController = overviewVC
         window?.makeKeyAndVisible()
         window?.windowScene = windowScene
         

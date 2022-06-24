@@ -39,7 +39,7 @@
 					<key>UISceneDelegateClassName</key>
 					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
 					<key>UISceneStoryboardFile</key>
-					<string>OnboardingScreen</string>
+					<string>InputIncome</string>
 				</dict>
 			</array>
 		</dict>
