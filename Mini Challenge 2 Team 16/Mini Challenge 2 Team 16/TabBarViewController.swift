@@ -24,9 +24,10 @@ class TabBarViewController: UITabBarController {
         journalVC.tabBarItem.image = UIImage(systemName: "list.bullet")
         journalVC.tabBarItem.title = "Journal"
         
-        let missionVC = journalStoryboard.instantiateViewController(withIdentifier: "JournalViewController")
+        let missionStoryboard = UIStoryboard(name: "Mission", bundle: nil)
+        let missionVC = missionStoryboard.instantiateViewController(withIdentifier: "MissionViewController")
         missionVC.tabBarItem.image = UIImage(systemName: "bag")
-        missionVC.tabBarItem.title = "Mission"
+        missionVC.tabBarItem.title = "Missions"
         
         tabBar.backgroundColor = .white
         tabBar.tintColor = UIColor(red: 248.0/255, green: 148.0/255, blue: 76.0/255, alpha: 1.0)
