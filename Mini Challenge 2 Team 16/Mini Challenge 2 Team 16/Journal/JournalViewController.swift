@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import MonthYearPicker
 
 class JournalViewController: UIViewController {
     
@@ -13,12 +14,15 @@ class JournalViewController: UIViewController {
     @IBOutlet weak var txtCurrBalance: UILabel!
     @IBOutlet weak var txtGoalAmount: UILabel!
     @IBOutlet weak var pbGoal: UIProgressView!
-    @IBOutlet weak var txtDate: UILabel!
+    @IBOutlet weak var tfDate: UITextField!
     @IBOutlet weak var scSection: UISegmentedControl!
     @IBOutlet weak var btnLeft: UIButton!
     @IBOutlet weak var btnRight: UIButton!
     @IBOutlet weak var tbJournal: UITableView!
     @IBOutlet weak var txtPercent: UILabel!
+    
+    private var selectedDate: Date?
+    private var picker = MonthYearPickerView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,6 +31,13 @@ class JournalViewController: UIViewController {
         tbJournal.delegate = self
         tbJournal.dataSource = self
         self.registerTableView()
+        
+        if (scSection.selectedSegmentIndex == 0) {
+            createDatePicker()
+            print("000")
+        } else {
+            print("111")
+        }
         
         txtCurrBalance.text = String(format: "%ld %@", locale: Locale.current, 300000, "")
         txtGoalAmount.text = String(format: "%ld %@", locale: Locale.current, 3000000, "")
@@ -37,12 +48,62 @@ class JournalViewController: UIViewController {
         switch scSection.selectedSegmentIndex
         {
         case 0:
+            
             break
         case 1:
+            
             break
         default:
             break
         }
+    }
+    
+    private func createDatePicker() {
+        picker = MonthYearPickerView(frame: CGRect(origin: CGPoint(x: 0, y: (view.bounds.height - 216) / 2), size: CGSize(width: view.bounds.width, height: 216)))
+        picker.maximumDate = Date()
+        tfDate.inputView = picker
+        tfDate.font = UIFont(name: "NunitoSans-Bold", size: 15)
+        tfDate.textAlignment = .center
+        
+        tfDate.text = formatDate(date: Date())
+        tfDate.inputAccessoryView = createDatePickerToolbar()
+    }
+    
+    func createDatePickerToolbar() -> UIToolbar {
+        let toolbar = UIToolbar()
+        var btnDone = UIBarButtonItem()
+        toolbar.sizeToFit()
+        
+        btnDone = UIBarButtonItem(barButtonSystemItem: .done, target: nil, action: #selector(doneDatePressed))
+        toolbar.setItems([btnDone], animated: true)
+        
+        return toolbar
+    }
+    
+    @objc func doneDatePressed() {
+        // Done pressed
+        tfDate.text = formatDate(date: picker.date)
+        self.view.endEditing(true)
+    }
+    
+    @IBAction func btnLeftPressed(_ sender: Any) {
+        tfDate.text = formatDate(date: addOrSubtractMonth(month: -1))
+    }
+    
+    @IBAction func btnRightPressed(_ sender: Any) {
+        tfDate.text = formatDate(date: addOrSubtractMonth(month: 1))
+    }
+    
+    func addOrSubtractMonth(month: Int) -> Date {
+        picker.date = Calendar.current.date(byAdding: .month, value: month, to: picker.date)!
+        return picker.date
+    }
+    
+    func formatDate(date: Date) -> String
+    {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "MMMM yyyy"
+        return formatter.string(from: date)
     }
     
     private func registerTableView() {
@@ -60,8 +121,11 @@ class JournalViewController: UIViewController {
 
 extension JournalViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        print(journalSeed[section].desc)
-        //        if (journalSeed[section])
+//        for (index, element) in journalSeed.enumerated() {
+//            if ()
+//            var filtered =
+//        }
+        print(section)
         return journalSeed.count
     }
     
