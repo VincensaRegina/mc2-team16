@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -28,17 +28,17 @@
             <objects>
                 <viewController storyboardIdentifier="JournalViewController" title="Journal" id="Y6W-OH-hqX" customClass="JournalViewController" customModule="Mini_Challenge_2_Team_16" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Journal" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cbm-qZ-vGw">
-                                <rect key="frame" x="20" y="60" width="394" height="36"/>
+                                <rect key="frame" x="16" y="60" width="374" height="36"/>
                                 <fontDescription key="fontDescription" name="CeraRoundPro-Bold" family="Cera Round Pro" pointSize="36"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="74M-pc-I3s">
-                                <rect key="frame" x="20" y="104" width="57" height="39"/>
+                                <rect key="frame" x="16" y="104" width="57" height="39"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <menu key="menu" id="8gT-Xt-ekF">
                                     <children>
@@ -49,7 +49,7 @@
                                 <state key="normal" title="Goal"/>
                             </button>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="78o-Gv-4tQ">
-                                <rect key="frame" x="20" y="159" width="374" height="95"/>
+                                <rect key="frame" x="16" y="159" width="358" height="95"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current Balance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vQN-60-xjd">
                                         <rect key="frame" x="12" y="14" width="87" height="17"/>
@@ -82,12 +82,12 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="uIJ-7f-0qx">
-                                        <rect key="frame" x="12" y="70" width="307" height="4"/>
+                                        <rect key="frame" x="12" y="70" width="291" height="4"/>
                                         <color key="tintColor" systemColor="systemGreenColor"/>
                                         <color key="trackTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </progressView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="50%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z90-Nw-FSJ">
-                                        <rect key="frame" x="327" y="62" width="26" height="17"/>
+                                        <rect key="frame" x="311" y="62" width="26" height="17"/>
                                         <fontDescription key="fontDescription" name="NunitoSans-Regular" family="Nunito Sans" pointSize="12"/>
                                         <color key="textColor" white="0.99997342690000002" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -120,7 +120,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="7qw-XR-0vT">
-                                <rect key="frame" x="20" y="286" width="374" height="32"/>
+                                <rect key="frame" x="16" y="286" width="358" height="32"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <segments>
                                     <segment title="Monthly"/>
@@ -132,13 +132,13 @@
                                 </connections>
                             </segmentedControl>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="252" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H7v-5J-xSe">
-                                <rect key="frame" x="20" y="339" width="43" height="31"/>
+                                <rect key="frame" x="16" y="339" width="43" height="31"/>
                                 <color key="tintColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="arrowtriangle.backward.fill" catalog="system" imagePadding="0.0"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6PZ-es-Ri4">
-                                <rect key="frame" x="351" y="339" width="43" height="31"/>
+                                <rect key="frame" x="331" y="339" width="43" height="31"/>
                                 <color key="tintColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="arrowtriangle.forward.fill" catalog="system" title="" imagePadding="0.0"/>
@@ -149,11 +149,11 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ZmV-y8-hOH">
-                                <rect key="frame" x="20" y="390" width="374" height="472"/>
+                                <rect key="frame" x="16" y="390" width="358" height="420"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="240" verticalHuggingPriority="251" text="June 2022" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mOJ-1p-5Gm">
-                                <rect key="frame" x="63" y="345" width="288" height="21"/>
+                                <rect key="frame" x="59" y="345" width="272" height="21"/>
                                 <fontDescription key="fontDescription" name="NunitoSans-ExtraBold" family="Nunito Sans" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -193,9 +193,9 @@
                         <outlet property="pbGoal" destination="uIJ-7f-0qx" id="MFm-AJ-DSb"/>
                         <outlet property="scSection" destination="7qw-XR-0vT" id="Qr2-Wb-xhe"/>
                         <outlet property="tbJournal" destination="ZmV-y8-hOH" id="U95-mR-nvc"/>
-                        <outlet property="txtCurrBalance" destination="HRk-BM-Vxd" id="5ED-Va-iKu"/>
+                        <outlet property="txtCurrBalance" destination="xy3-yT-62k" id="0pn-ly-U85"/>
                         <outlet property="txtDate" destination="mOJ-1p-5Gm" id="Hew-aP-ebM"/>
-                        <outlet property="txtGoalAmount" destination="HRk-BM-Vxd" id="eGO-tb-wle"/>
+                        <outlet property="txtGoalAmount" destination="HRk-BM-Vxd" id="P6T-cS-27a"/>
                         <outlet property="txtPercent" destination="z90-Nw-FSJ" id="7o7-3z-NPS"/>
                     </connections>
                 </viewController>
