@@ -1,24 +1,22 @@
 //
-//  InputIncomeViewController.swift
+//  InputExpenseViewController.swift
 //  Mini Challenge 2 Team 16
 //
-//  Created by Zacky Ilahi Azmi on 23/06/22.
+//  Created by Zacky Ilahi Azmi on 27/06/22.
 //
 
 import UIKit
 
-class InputIncomeViewController: UIViewController {
+class InputExpenseViewController: UIViewController {
 
-    
     @IBOutlet weak var closeBtn: UIButton!
     @IBOutlet weak var saveBtn: UIButton!
     
-    @IBOutlet weak var moneyLbl: UILabel!
-    @IBOutlet weak var descInput: UITextField!
     @IBOutlet weak var dateInput: UITextField!
-    
-    
+    @IBOutlet weak var descInput: UITextField!
+    @IBOutlet weak var moneyLbl: UILabel!
     @IBOutlet weak var deleteCalc: UIButton!
+    
     
     var result: String = ""
     

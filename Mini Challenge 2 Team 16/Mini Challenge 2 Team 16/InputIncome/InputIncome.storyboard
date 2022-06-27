@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Image references" minToolsVersion="12.0"/>
@@ -15,101 +15,17 @@
             <objects>
                 <viewController storyboardIdentifier="InputIncomeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="InputIncomeViewController" customModule="Mini_Challenge_2_Team_16" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Income" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m5P-QX-wZf">
-                                <rect key="frame" x="147.5" y="141" width="119.5" height="42"/>
-                                <fontDescription key="fontDescription" name="CeraRoundPro-Bold" family="Cera Round Pro" pointSize="36"/>
-                                <color key="textColor" red="0.45882352941176469" green="0.67450980392156867" blue="0.41176470588235292" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wq9-sE-xYh">
-                                <rect key="frame" x="197" y="228.5" width="20.5" height="42"/>
-                                <fontDescription key="fontDescription" name="CeraRoundPro-Bold" family="Cera Round Pro" pointSize="36"/>
-                                <color key="textColor" red="0.45882352941176469" green="0.67450980392156867" blue="0.41176470588235292" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="______________________________________________________" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8re-UJ-SP9">
-                                <rect key="frame" x="-32" y="188" width="478" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" name="Line"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="______________________________________________________" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ghj-IV-4Pf">
-                                <rect key="frame" x="-32" y="275.5" width="478" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" name="Line"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="______________________________________________________" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bgY-ec-ztW">
-                                <rect key="frame" x="-32" y="340" width="478" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" name="Line"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="______________________________________________________" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="udY-76-Ipd">
-                                <rect key="frame" x="-32" y="401.5" width="478" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" name="Line"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Description..." textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pSk-Uw-lbu">
-                                <rect key="frame" x="162.5" y="316" width="89" height="19"/>
-                                <color key="textColor" red="0.97254901960784312" green="0.58039215686274503" blue="0.29803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="NunitoSans-Regular" family="Nunito Sans" pointSize="15"/>
-                                <textInputTraits key="textInputTraits" autocorrectionType="no"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" allowsEditingTextAttributes="YES" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="98A-LY-P5B">
-                                <rect key="frame" x="148" y="380.5" width="118" height="16"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Today, 23 June 2022">
-                                        <attributes>
-                                            <color key="NSColor" name="Main"/>
-                                            <font key="NSFont" metaFont="cellTitle"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <textInputTraits key="textInputTraits" autocorrectionType="no"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ld-qJ-0Zg">
-                                <rect key="frame" x="354" y="117" width="45" height="31"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
-                                    <imageReference key="image" image="xmark.circle.fill" catalog="system" symbolScale="large"/>
-                                    <color key="baseForegroundColor" name="Line"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Qg-lH-gXY">
-                                <rect key="frame" x="67" y="790" width="280" height="58"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="58" id="Acb-qU-ubP"/>
-                                    <constraint firstAttribute="width" constant="280" id="OC3-1K-zNd"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled">
-                                    <backgroundConfiguration key="background" cornerRadius="10"/>
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Save">
-                                            <attributes>
-                                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="36" name="CeraRoundPro-Bold"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                    <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="baseBackgroundColor" red="0.45882352939999999" green="0.67450980390000004" blue="0.41176470590000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </buttonConfiguration>
-                            </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="fkb-JQ-2IJ">
-                                <rect key="frame" x="0.0" y="452" width="414" height="308"/>
+                                <rect key="frame" x="0.0" y="400" width="390" height="308"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="m6m-PI-9hK">
-                                        <rect key="frame" x="0.0" y="0.0" width="138" height="308"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="130" height="308"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RE5-Ie-gii">
-                                                <rect key="frame" x="0.0" y="0.0" width="138" height="56"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="130" height="56"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="7">
                                                     <fontDescription key="titleFontDescription" name="CeraRoundPro-Bold" family="Cera Round Pro" pointSize="36"/>
@@ -120,7 +36,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T0t-SN-VAt">
-                                                <rect key="frame" x="0.0" y="84" width="138" height="56"/>
+                                                <rect key="frame" x="0.0" y="84" width="130" height="56"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="4">
                                                     <fontDescription key="titleFontDescription" name="CeraRoundPro-Bold" family="Cera Round Pro" pointSize="36"/>
@@ -131,7 +47,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xTh-Eh-utn">
-                                                <rect key="frame" x="0.0" y="168" width="138" height="56"/>
+                                                <rect key="frame" x="0.0" y="168" width="130" height="56"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="1">
                                                     <fontDescription key="titleFontDescription" name="CeraRoundPro-Bold" family="Cera Round Pro" pointSize="36"/>
@@ -142,7 +58,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Yi-DJ-ifW">
-                                                <rect key="frame" x="0.0" y="252" width="138" height="56"/>
+                                                <rect key="frame" x="0.0" y="252" width="130" height="56"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="C">
                                                     <fontDescription key="titleFontDescription" name="CeraRoundPro-Bold" family="Cera Round Pro" pointSize="36"/>
@@ -155,10 +71,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="fzF-BO-RjR">
-                                        <rect key="frame" x="138" y="0.0" width="138" height="308"/>
+                                        <rect key="frame" x="130" y="0.0" width="130" height="308"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RbY-hv-6rK">
-                                                <rect key="frame" x="0.0" y="0.0" width="138" height="56"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="130" height="56"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="8">
@@ -170,7 +86,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u7R-yH-hug">
-                                                <rect key="frame" x="0.0" y="84" width="138" height="56"/>
+                                                <rect key="frame" x="0.0" y="84" width="130" height="56"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="5">
                                                     <fontDescription key="titleFontDescription" name="CeraRoundPro-Bold" family="Cera Round Pro" pointSize="36"/>
@@ -181,7 +97,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jab-Vu-mrb">
-                                                <rect key="frame" x="0.0" y="168" width="138" height="56"/>
+                                                <rect key="frame" x="0.0" y="168" width="130" height="56"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="2">
                                                     <fontDescription key="titleFontDescription" name="CeraRoundPro-Bold" family="Cera Round Pro" pointSize="36"/>
@@ -192,7 +108,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pcP-Lr-pbA">
-                                                <rect key="frame" x="0.0" y="252" width="138" height="56"/>
+                                                <rect key="frame" x="0.0" y="252" width="130" height="56"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="0">
                                                     <fontDescription key="titleFontDescription" name="CeraRoundPro-Bold" family="Cera Round Pro" pointSize="36"/>
@@ -205,10 +121,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="26" translatesAutoresizingMaskIntoConstraints="NO" id="A9a-Ma-qF7">
-                                        <rect key="frame" x="276" y="0.0" width="138" height="308"/>
+                                        <rect key="frame" x="260" y="0.0" width="130" height="308"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rJs-Qx-mmT">
-                                                <rect key="frame" x="0.0" y="0.0" width="138" height="57.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="130" height="57.666666666666664"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="9">
                                                     <fontDescription key="titleFontDescription" name="CeraRoundPro-Bold" family="Cera Round Pro" pointSize="36"/>
@@ -219,7 +135,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ale-Th-JfF">
-                                                <rect key="frame" x="0.0" y="83.5" width="138" height="57.5"/>
+                                                <rect key="frame" x="0.0" y="83.666666666666686" width="130" height="57.333333333333343"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="6">
                                                     <fontDescription key="titleFontDescription" name="CeraRoundPro-Bold" family="Cera Round Pro" pointSize="36"/>
@@ -230,7 +146,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TEZ-Xi-KLw">
-                                                <rect key="frame" x="0.0" y="167" width="138" height="57.5"/>
+                                                <rect key="frame" x="0.0" y="167" width="130" height="57.666666666666657"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="3">
                                                     <fontDescription key="titleFontDescription" name="CeraRoundPro-Bold" family="Cera Round Pro" pointSize="36"/>
@@ -241,7 +157,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L9c-J7-78i">
-                                                <rect key="frame" x="0.0" y="250.5" width="138" height="57.5"/>
+                                                <rect key="frame" x="0.0" y="250.66666666666666" width="130" height="57.333333333333343"/>
                                                 <color key="tintColor" red="0.45882352939999999" green="0.67450980390000004" blue="0.41176470590000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" image="delete.backward.fill" catalog="system">
@@ -258,33 +174,118 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="_______________________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uiJ-fu-BW8">
+                                <rect key="frame" x="-13" y="161" width="416" height="20.333333333333343"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" name="Line"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="_______________________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qfK-UL-vFu">
+                                <rect key="frame" x="-13" y="223.66666666666666" width="416" height="20.333333333333343"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" name="Line"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="_______________________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pOc-NL-Rj2">
+                                <rect key="frame" x="-13" y="288.33333333333331" width="416" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" name="Line"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="_______________________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sjp-C4-Kic">
+                                <rect key="frame" x="-13" y="349.66666666666669" width="416" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" name="Line"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Qg-lH-gXY">
+                                <rect key="frame" x="55" y="738" width="280" height="58"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="58" id="Acb-qU-ubP"/>
+                                    <constraint firstAttribute="width" constant="280" id="OC3-1K-zNd"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <backgroundConfiguration key="background" cornerRadius="10"/>
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Save">
+                                            <attributes>
+                                                <font key="NSFont" size="36" name="CeraRoundPro-Bold"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="baseBackgroundColor" red="0.45882352939999999" green="0.67450980390000004" blue="0.41176470590000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Income" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m5P-QX-wZf">
+                                <rect key="frame" x="135.33333333333334" y="114" width="119.66666666666666" height="42"/>
+                                <fontDescription key="fontDescription" name="CeraRoundPro-Bold" family="Cera Round Pro" pointSize="36"/>
+                                <color key="textColor" red="0.45882352941176469" green="0.67450980392156867" blue="0.41176470588235292" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="3" height="1"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" allowsEditingTextAttributes="YES" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="98A-LY-P5B">
+                                <rect key="frame" x="136" y="328.66666666666669" width="118" height="16"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Today, 23 June 2022">
+                                        <attributes>
+                                            <color key="NSColor" name="Main"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Description..." textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pSk-Uw-lbu">
+                                <rect key="frame" x="150.66666666666666" y="264" width="89" height="19.333333333333314"/>
+                                <color key="textColor" red="0.97254901960784312" green="0.58039215686274503" blue="0.29803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="NunitoSans-Regular" family="Nunito Sans" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ld-qJ-0Zg">
+                                <rect key="frame" x="329.66666666666669" y="84" width="45.333333333333314" height="30.666666666666671"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <imageReference key="image" image="xmark.circle.fill" catalog="system" symbolScale="large"/>
+                                    <color key="baseForegroundColor" name="Line"/>
+                                </buttonConfiguration>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wq9-sE-xYh">
+                                <rect key="frame" x="185" y="201.33333333333334" width="20.333333333333343" height="17.333333333333343"/>
+                                <fontDescription key="fontDescription" name="CeraRoundPro-Bold" family="Cera Round Pro" pointSize="36"/>
+                                <color key="textColor" red="0.45882352941176469" green="0.67450980392156867" blue="0.41176470588235292" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="m5P-QX-wZf" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="0vo-W3-06C"/>
+                            <constraint firstItem="uiJ-fu-BW8" firstAttribute="top" secondItem="m5P-QX-wZf" secondAttribute="bottom" constant="5" id="1Ia-zm-mAb"/>
+                            <constraint firstItem="fkb-JQ-2IJ" firstAttribute="top" secondItem="Sjp-C4-Kic" secondAttribute="bottom" constant="30" id="3f9-xK-sYI"/>
                             <constraint firstItem="fkb-JQ-2IJ" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="6uh-xs-7zB"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="3Qg-lH-gXY" secondAttribute="bottom" constant="14" id="7Ys-6c-C9W"/>
-                            <constraint firstItem="98A-LY-P5B" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="80l-8t-FjT"/>
-                            <constraint firstItem="pSk-Uw-lbu" firstAttribute="top" secondItem="ghj-IV-4Pf" secondAttribute="bottom" constant="20" id="9AY-WE-rUu"/>
-                            <constraint firstItem="bgY-ec-ztW" firstAttribute="top" secondItem="pSk-Uw-lbu" secondAttribute="bottom" constant="5" id="9Se-Zo-Hyi"/>
+                            <constraint firstItem="98A-LY-P5B" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="8vd-Mp-AfO"/>
+                            <constraint firstItem="m5P-QX-wZf" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="70" id="AXQ-e9-BEd"/>
                             <constraint firstItem="3Qg-lH-gXY" firstAttribute="top" secondItem="fkb-JQ-2IJ" secondAttribute="bottom" constant="30" id="BWT-RR-ZhY"/>
-                            <constraint firstItem="wq9-sE-xYh" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="EBH-GT-UEX"/>
-                            <constraint firstItem="8re-UJ-SP9" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="JFK-gi-31D"/>
-                            <constraint firstItem="98A-LY-P5B" firstAttribute="top" secondItem="bgY-ec-ztW" secondAttribute="bottom" constant="20" id="Jtx-F1-FNx"/>
-                            <constraint firstItem="udY-76-Ipd" firstAttribute="top" secondItem="98A-LY-P5B" secondAttribute="bottom" constant="5" id="Kjx-DN-C2S"/>
-                            <constraint firstItem="bgY-ec-ztW" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="PwH-7J-6Zk"/>
-                            <constraint firstItem="wq9-sE-xYh" firstAttribute="top" secondItem="8re-UJ-SP9" secondAttribute="bottom" constant="20" id="SKy-Yi-oKS"/>
-                            <constraint firstItem="ghj-IV-4Pf" firstAttribute="top" secondItem="wq9-sE-xYh" secondAttribute="bottom" constant="5" id="Tsu-EN-1p4"/>
-                            <constraint firstItem="8re-UJ-SP9" firstAttribute="top" secondItem="7Ld-qJ-0Zg" secondAttribute="bottom" constant="40" id="WAg-O1-JZY"/>
+                            <constraint firstItem="qfK-UL-vFu" firstAttribute="top" secondItem="wq9-sE-xYh" secondAttribute="bottom" constant="5" id="E2S-ZE-QxR"/>
+                            <constraint firstItem="wq9-sE-xYh" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="FbI-uy-R7U"/>
+                            <constraint firstItem="wq9-sE-xYh" firstAttribute="top" secondItem="uiJ-fu-BW8" secondAttribute="bottom" constant="20" id="IKL-U4-58V"/>
+                            <constraint firstItem="Sjp-C4-Kic" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="Ldj-O5-prh"/>
+                            <constraint firstItem="Sjp-C4-Kic" firstAttribute="top" secondItem="98A-LY-P5B" secondAttribute="bottom" constant="5" id="OYT-D6-7lK"/>
+                            <constraint firstItem="pSk-Uw-lbu" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="Pw7-IH-mZ1"/>
+                            <constraint firstItem="pOc-NL-Rj2" firstAttribute="top" secondItem="pSk-Uw-lbu" secondAttribute="bottom" constant="5" id="SoU-ZD-jIF"/>
+                            <constraint firstItem="pSk-Uw-lbu" firstAttribute="top" secondItem="qfK-UL-vFu" secondAttribute="bottom" constant="20" id="UK3-Vw-GNg"/>
                             <constraint firstItem="3Qg-lH-gXY" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="Wl3-DH-Vx0"/>
-                            <constraint firstItem="fkb-JQ-2IJ" firstAttribute="top" secondItem="udY-76-Ipd" secondAttribute="bottom" constant="30" id="cxg-fU-Eng"/>
-                            <constraint firstItem="udY-76-Ipd" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="mbl-0T-d9r"/>
+                            <constraint firstItem="uiJ-fu-BW8" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="YCa-ee-0A5"/>
+                            <constraint firstItem="7Ld-qJ-0Zg" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="40" id="bs4-8f-pOb"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="7Ld-qJ-0Zg" secondAttribute="trailing" constant="15" id="mhf-yu-e7z"/>
                             <constraint firstAttribute="trailing" secondItem="fkb-JQ-2IJ" secondAttribute="trailing" id="npq-2l-xTD"/>
-                            <constraint firstItem="m5P-QX-wZf" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="ogv-1C-GJH"/>
-                            <constraint firstItem="ghj-IV-4Pf" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="qU1-MS-mXT"/>
-                            <constraint firstItem="8re-UJ-SP9" firstAttribute="top" secondItem="m5P-QX-wZf" secondAttribute="bottom" constant="5" id="qZq-sS-7vx"/>
-                            <constraint firstItem="pSk-Uw-lbu" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="zhc-6Y-FqI"/>
+                            <constraint firstItem="98A-LY-P5B" firstAttribute="top" secondItem="pOc-NL-Rj2" secondAttribute="bottom" constant="20" id="pc3-Yy-TCI"/>
+                            <constraint firstItem="qfK-UL-vFu" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="rlK-X2-9oA"/>
+                            <constraint firstItem="pOc-NL-Rj2" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="yJh-eV-Z81"/>
                         </constraints>
                     </view>
                     <connections>
@@ -300,12 +301,306 @@
             </objects>
             <point key="canvasLocation" x="34.782608695652179" y="85.714285714285708"/>
         </scene>
+        <!--Input Expense View Controller-->
+        <scene sceneID="1dI-tv-BMt">
+            <objects>
+                <viewController storyboardIdentifier="InputExpenseViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xAr-1H-1cj" customClass="InputExpenseViewController" customModule="Mini_Challenge_2_Team_16" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="k0o-F2-PKU">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="AlI-vo-TCH">
+                                <rect key="frame" x="0.0" y="400" width="390" height="308"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="jdq-gC-OVN">
+                                        <rect key="frame" x="0.0" y="0.0" width="130" height="308"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U4Y-j5-uDJ">
+                                                <rect key="frame" x="0.0" y="0.0" width="130" height="56"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="7">
+                                                    <fontDescription key="titleFontDescription" name="CeraRoundPro-Bold" family="Cera Round Pro" pointSize="36"/>
+                                                    <color key="baseForegroundColor" name="Expense"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="sevenTap:" destination="xAr-1H-1cj" eventType="touchUpInside" id="VSQ-e5-OhS"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OLI-pj-pm2">
+                                                <rect key="frame" x="0.0" y="84" width="130" height="56"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="4">
+                                                    <fontDescription key="titleFontDescription" name="CeraRoundPro-Bold" family="Cera Round Pro" pointSize="36"/>
+                                                    <color key="baseForegroundColor" name="Expense"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="fourTap:" destination="xAr-1H-1cj" eventType="touchUpInside" id="php-Ue-aNa"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bQ3-hd-dKY">
+                                                <rect key="frame" x="0.0" y="168" width="130" height="56"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="1">
+                                                    <fontDescription key="titleFontDescription" name="CeraRoundPro-Bold" family="Cera Round Pro" pointSize="36"/>
+                                                    <color key="baseForegroundColor" name="Expense"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="oneTap:" destination="xAr-1H-1cj" eventType="touchUpInside" id="SsW-Sr-kYH"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PLB-YN-bEi">
+                                                <rect key="frame" x="0.0" y="252" width="130" height="56"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="C">
+                                                    <fontDescription key="titleFontDescription" name="CeraRoundPro-Bold" family="Cera Round Pro" pointSize="36"/>
+                                                    <color key="baseForegroundColor" name="Expense"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="clearTap:" destination="xAr-1H-1cj" eventType="touchUpInside" id="aOM-hV-cWL"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="wdY-fE-TcU">
+                                        <rect key="frame" x="130" y="0.0" width="130" height="308"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BwV-mb-1Y6">
+                                                <rect key="frame" x="0.0" y="0.0" width="130" height="56"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="8">
+                                                    <fontDescription key="titleFontDescription" name="CeraRoundPro-Bold" family="Cera Round Pro" pointSize="36"/>
+                                                    <color key="baseForegroundColor" name="Expense"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="eightTap:" destination="xAr-1H-1cj" eventType="touchUpInside" id="nSW-QK-uBp"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ubr-6t-UAf">
+                                                <rect key="frame" x="0.0" y="84" width="130" height="56"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="5">
+                                                    <fontDescription key="titleFontDescription" name="CeraRoundPro-Bold" family="Cera Round Pro" pointSize="36"/>
+                                                    <color key="baseForegroundColor" name="Expense"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="fiveTap:" destination="xAr-1H-1cj" eventType="touchUpInside" id="vbz-qN-bMg"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ac8-aY-e2e">
+                                                <rect key="frame" x="0.0" y="168" width="130" height="56"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="2">
+                                                    <fontDescription key="titleFontDescription" name="CeraRoundPro-Bold" family="Cera Round Pro" pointSize="36"/>
+                                                    <color key="baseForegroundColor" name="Expense"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="twoTap:" destination="xAr-1H-1cj" eventType="touchUpInside" id="6Ee-FG-Pfx"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hyi-ZF-cBE">
+                                                <rect key="frame" x="0.0" y="252" width="130" height="56"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="0">
+                                                    <fontDescription key="titleFontDescription" name="CeraRoundPro-Bold" family="Cera Round Pro" pointSize="36"/>
+                                                    <color key="baseForegroundColor" name="Expense"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="zeroTap:" destination="xAr-1H-1cj" eventType="touchUpInside" id="xeB-mq-bvu"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="26" translatesAutoresizingMaskIntoConstraints="NO" id="eJi-oJ-Fdi">
+                                        <rect key="frame" x="260" y="0.0" width="130" height="308"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H6f-4J-qHL">
+                                                <rect key="frame" x="0.0" y="0.0" width="130" height="57.666666666666664"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="9">
+                                                    <fontDescription key="titleFontDescription" name="CeraRoundPro-Bold" family="Cera Round Pro" pointSize="36"/>
+                                                    <color key="baseForegroundColor" name="Expense"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="nineTap:" destination="xAr-1H-1cj" eventType="touchUpInside" id="mhU-is-M1y"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bVo-O2-hf1">
+                                                <rect key="frame" x="0.0" y="83.666666666666686" width="130" height="57.333333333333343"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="6">
+                                                    <fontDescription key="titleFontDescription" name="CeraRoundPro-Bold" family="Cera Round Pro" pointSize="36"/>
+                                                    <color key="baseForegroundColor" name="Expense"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="sixTap:" destination="xAr-1H-1cj" eventType="touchUpInside" id="7fu-IP-jkV"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E9X-7v-VYP">
+                                                <rect key="frame" x="0.0" y="167" width="130" height="57.666666666666657"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="3">
+                                                    <fontDescription key="titleFontDescription" name="CeraRoundPro-Bold" family="Cera Round Pro" pointSize="36"/>
+                                                    <color key="baseForegroundColor" name="Expense"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="threeTap:" destination="xAr-1H-1cj" eventType="touchUpInside" id="lcU-HQ-JLX"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q3t-Hk-KAk">
+                                                <rect key="frame" x="0.0" y="250.66666666666666" width="130" height="57.333333333333343"/>
+                                                <color key="tintColor" red="0.45882352939999999" green="0.67450980390000004" blue="0.41176470590000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" image="delete.backward.fill" catalog="system">
+                                                    <color key="titleColor" red="0.45882352939999999" green="0.67450980390000004" blue="0.41176470590000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <buttonConfiguration key="configuration" style="plain" image="delete.backward.fill" catalog="system">
+                                                    <color key="baseForegroundColor" name="Expense"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="deleteTap:" destination="xAr-1H-1cj" eventType="touchUpInside" id="dSD-Lr-3wI"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="_______________________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hl5-7y-5Aq">
+                                <rect key="frame" x="-13" y="161" width="416" height="20.333333333333343"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" name="Line"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="_______________________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zJd-sz-YPr">
+                                <rect key="frame" x="-13" y="223.66666666666666" width="416" height="20.333333333333343"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" name="Line"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="_______________________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K0M-MZ-saY">
+                                <rect key="frame" x="-13" y="288.33333333333331" width="416" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" name="Line"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="_______________________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kIW-Rc-Ie8">
+                                <rect key="frame" x="-13" y="349.66666666666669" width="416" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" name="Line"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v0x-K0-83b">
+                                <rect key="frame" x="55" y="738" width="280" height="58"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" id="N1P-cI-gnU"/>
+                                    <constraint firstAttribute="height" constant="58" id="ki7-6e-d9P"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <backgroundConfiguration key="background" cornerRadius="10"/>
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Save">
+                                            <attributes>
+                                                <font key="NSFont" size="36" name="CeraRoundPro-Bold"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="baseBackgroundColor" name="Expense"/>
+                                </buttonConfiguration>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Expense" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="agH-Xb-iSn">
+                                <rect key="frame" x="125.66666666666669" y="114" width="139" height="42"/>
+                                <fontDescription key="fontDescription" name="CeraRoundPro-Bold" family="Cera Round Pro" pointSize="36"/>
+                                <color key="textColor" name="Expense"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="3" height="1"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" allowsEditingTextAttributes="YES" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="84J-7h-iSN">
+                                <rect key="frame" x="136" y="328.66666666666669" width="118" height="16"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Today, 23 June 2022">
+                                        <attributes>
+                                            <color key="NSColor" name="Main"/>
+                                            <font key="NSFont" metaFont="cellTitle"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Description..." textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kYo-FG-YXn">
+                                <rect key="frame" x="150.66666666666666" y="264" width="89" height="19.333333333333314"/>
+                                <color key="textColor" red="0.97254901959999995" green="0.58039215690000001" blue="0.29803921570000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="NunitoSans-Regular" family="Nunito Sans" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K1P-Zm-vZA">
+                                <rect key="frame" x="329.66666666666669" y="84" width="45.333333333333314" height="30.666666666666671"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <imageReference key="image" image="xmark.circle.fill" catalog="system" symbolScale="large"/>
+                                    <color key="baseForegroundColor" name="Line"/>
+                                </buttonConfiguration>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hPx-pi-iiJ">
+                                <rect key="frame" x="185" y="201.33333333333334" width="20.333333333333343" height="17.333333333333343"/>
+                                <fontDescription key="fontDescription" name="CeraRoundPro-Bold" family="Cera Round Pro" pointSize="36"/>
+                                <color key="textColor" name="Expense"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="yTX-Kd-uGk"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="84J-7h-iSN" firstAttribute="centerX" secondItem="yTX-Kd-uGk" secondAttribute="centerX" id="0vj-QG-H6S"/>
+                            <constraint firstItem="kIW-Rc-Ie8" firstAttribute="centerX" secondItem="yTX-Kd-uGk" secondAttribute="centerX" id="2GL-Ao-UGm"/>
+                            <constraint firstItem="hl5-7y-5Aq" firstAttribute="centerX" secondItem="yTX-Kd-uGk" secondAttribute="centerX" id="9Oc-dz-k4Q"/>
+                            <constraint firstItem="yTX-Kd-uGk" firstAttribute="trailing" secondItem="K1P-Zm-vZA" secondAttribute="trailing" constant="15" id="BzH-di-FTg"/>
+                            <constraint firstAttribute="trailing" secondItem="AlI-vo-TCH" secondAttribute="trailing" id="F8c-QS-ith"/>
+                            <constraint firstItem="AlI-vo-TCH" firstAttribute="leading" secondItem="k0o-F2-PKU" secondAttribute="leading" id="IHh-b8-f67"/>
+                            <constraint firstItem="K0M-MZ-saY" firstAttribute="centerX" secondItem="yTX-Kd-uGk" secondAttribute="centerX" id="RCp-aH-nkk"/>
+                            <constraint firstItem="hPx-pi-iiJ" firstAttribute="centerX" secondItem="yTX-Kd-uGk" secondAttribute="centerX" id="STv-1z-bh5"/>
+                            <constraint firstItem="zJd-sz-YPr" firstAttribute="top" secondItem="hPx-pi-iiJ" secondAttribute="bottom" constant="5" id="Sqo-YO-V7h"/>
+                            <constraint firstItem="K1P-Zm-vZA" firstAttribute="top" secondItem="yTX-Kd-uGk" secondAttribute="top" constant="40" id="UeY-D3-TRD"/>
+                            <constraint firstItem="agH-Xb-iSn" firstAttribute="centerX" secondItem="yTX-Kd-uGk" secondAttribute="centerX" id="ZdK-Y2-5I9"/>
+                            <constraint firstItem="kYo-FG-YXn" firstAttribute="top" secondItem="zJd-sz-YPr" secondAttribute="bottom" constant="20" id="bvG-cE-SoA"/>
+                            <constraint firstItem="agH-Xb-iSn" firstAttribute="top" secondItem="yTX-Kd-uGk" secondAttribute="top" constant="70" id="d3s-bW-3mX"/>
+                            <constraint firstItem="yTX-Kd-uGk" firstAttribute="bottom" secondItem="v0x-K0-83b" secondAttribute="bottom" constant="14" id="f1c-8P-24y"/>
+                            <constraint firstItem="kYo-FG-YXn" firstAttribute="centerX" secondItem="yTX-Kd-uGk" secondAttribute="centerX" id="fAE-XJ-LmE"/>
+                            <constraint firstItem="zJd-sz-YPr" firstAttribute="centerX" secondItem="yTX-Kd-uGk" secondAttribute="centerX" id="h9Y-L6-hvq"/>
+                            <constraint firstItem="hPx-pi-iiJ" firstAttribute="top" secondItem="hl5-7y-5Aq" secondAttribute="bottom" constant="20" id="i4t-3O-f3X"/>
+                            <constraint firstItem="84J-7h-iSN" firstAttribute="top" secondItem="K0M-MZ-saY" secondAttribute="bottom" constant="20" id="kLz-zy-tb5"/>
+                            <constraint firstItem="kIW-Rc-Ie8" firstAttribute="top" secondItem="84J-7h-iSN" secondAttribute="bottom" constant="5" id="kgy-Cd-bOd"/>
+                            <constraint firstItem="v0x-K0-83b" firstAttribute="top" secondItem="AlI-vo-TCH" secondAttribute="bottom" constant="30" id="mr4-lA-84n"/>
+                            <constraint firstItem="v0x-K0-83b" firstAttribute="centerX" secondItem="yTX-Kd-uGk" secondAttribute="centerX" id="rBG-dV-LxR"/>
+                            <constraint firstItem="AlI-vo-TCH" firstAttribute="top" secondItem="kIW-Rc-Ie8" secondAttribute="bottom" constant="30" id="tHm-6F-GuR"/>
+                            <constraint firstItem="hl5-7y-5Aq" firstAttribute="top" secondItem="agH-Xb-iSn" secondAttribute="bottom" constant="5" id="wYY-SS-3sI"/>
+                            <constraint firstItem="K0M-MZ-saY" firstAttribute="top" secondItem="kYo-FG-YXn" secondAttribute="bottom" constant="5" id="xk3-sV-IHI"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="closeBtn" destination="K1P-Zm-vZA" id="MDW-SH-1BJ"/>
+                        <outlet property="dateInput" destination="84J-7h-iSN" id="LCp-k2-DR6"/>
+                        <outlet property="deleteCalc" destination="Q3t-Hk-KAk" id="puF-Dr-1l0"/>
+                        <outlet property="descInput" destination="kYo-FG-YXn" id="lwZ-ho-wYd"/>
+                        <outlet property="moneyLbl" destination="hPx-pi-iiJ" id="fbH-x0-MWQ"/>
+                        <outlet property="saveBtn" destination="v0x-K0-83b" id="qtZ-Ma-U8w"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rI9-fX-zLc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="815" y="85"/>
+        </scene>
     </scenes>
     <resources>
         <image name="delete.backward.fill" catalog="system" width="128" height="104"/>
         <image name="xmark.circle.fill" catalog="system" width="128" height="121"/>
+        <namedColor name="Expense">
+            <color red="0.85882352941176465" green="0.3411764705882353" blue="0.24313725490196078" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="Line">
-            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.55699998140335083" green="0.55699998140335083" blue="0.57599997520446777" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="Main">
             <color red="0.97254901960784312" green="0.58039215686274503" blue="0.29803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
