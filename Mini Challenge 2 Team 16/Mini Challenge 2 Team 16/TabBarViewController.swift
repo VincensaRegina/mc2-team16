@@ -15,11 +15,19 @@ class TabBarViewController: UITabBarController {
         let overviewVC = journalStoryboard.instantiateViewController(withIdentifier: "JournalViewController")
         overviewVC.tabBarItem.image =  UIImage(systemName: "house")
         
+        let homeVC = UINavigationController(rootViewController: HomeViewController())
+        homeVC.tabBarItem.image = UIImage(systemName: "house")
+        homeVC.tabBarItem.title = "Home"
+        
+        
         let journalVC = journalStoryboard.instantiateViewController(withIdentifier: "JournalViewController")
         journalVC.tabBarItem.image = UIImage(systemName: "list.bullet")
+        journalVC.tabBarItem.title = "Journal"
         
-        let missionVC = journalStoryboard.instantiateViewController(withIdentifier: "JournalViewController")
+        let missionStoryboard = UIStoryboard(name: "Mission", bundle: nil)
+        let missionVC = missionStoryboard.instantiateViewController(withIdentifier: "MissionViewController")
         missionVC.tabBarItem.image = UIImage(systemName: "bag")
+        missionVC.tabBarItem.title = "Missions"
         
         tabBar.backgroundColor = .white
         tabBar.tintColor = UIColor(red: 248.0/255, green: 148.0/255, blue: 76.0/255, alpha: 1.0)
@@ -28,7 +36,7 @@ class TabBarViewController: UITabBarController {
         tabBar.layer.shadowColor = UIColor.black.cgColor
         tabBar.layer.shadowOpacity = 0.3
         
-        viewControllers = [overviewVC, journalVC, missionVC]
+        viewControllers = [homeVC, journalVC, missionVC]
     }
     
     /*

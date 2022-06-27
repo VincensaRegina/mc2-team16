@@ -42,6 +42,31 @@
 		6787C4092853445D00BDBDCD /* Mini_Challenge_2_Team_16.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6787C4072853445D00BDBDCD /* Mini_Challenge_2_Team_16.xcdatamodeld */; };
 		6787C40B2853445E00BDBDCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6787C40A2853445E00BDBDCD /* Assets.xcassets */; };
 		6787C40E2853445E00BDBDCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6787C40C2853445E00BDBDCD /* LaunchScreen.storyboard */; };
+		F6C4123C2861D4C500949181 /* InputNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C4123B2861D4C500949181 /* InputNameViewController.swift */; };
+		F6C4123E2861D51000949181 /* InputGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C4123D2861D51000949181 /* InputGoalViewController.swift */; };
+		F6C412402861D55C00949181 /* InputStartingBalanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C4123F2861D55C00949181 /* InputStartingBalanceViewController.swift */; };
+		F6D745772860887C0062DF61 /* OnboardingInputScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D745762860887C0062DF61 /* OnboardingInputScreen.storyboard */; };
+		F6D7458128608A270062DF61 /* OnboardingInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D7458028608A270062DF61 /* OnboardingInputViewController.swift */; };
+		67FC2AC62863370E001729BB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC2AC42863370E001729BB /* HomeViewController.swift */; };
+		67FC2AC72863370E001729BB /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67FC2AC52863370E001729BB /* HomeViewController.xib */; };
+		67FC2ACE28633F83001729BB /* FirstRowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC2ACC28633F83001729BB /* FirstRowTableViewCell.swift */; };
+		67FC2ACF28633F83001729BB /* FirstRowTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67FC2ACD28633F83001729BB /* FirstRowTableViewCell.xib */; };
+		67FC2ADA28645463001729BB /* SecondRowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC2AD828645463001729BB /* SecondRowTableViewCell.swift */; };
+		67FC2ADB28645463001729BB /* SecondRowTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67FC2AD928645463001729BB /* SecondRowTableViewCell.xib */; };
+		67FC2ADE28659CA9001729BB /* ThirdRowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC2ADC28659CA9001729BB /* ThirdRowTableViewCell.swift */; };
+		67FC2ADF28659CA9001729BB /* ThirdRowTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67FC2ADD28659CA9001729BB /* ThirdRowTableViewCell.xib */; };
+		67FC2AE42865AA09001729BB /* FourthRowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC2AE22865AA09001729BB /* FourthRowTableViewCell.swift */; };
+		67FC2AE52865AA09001729BB /* FourthRowTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67FC2AE32865AA09001729BB /* FourthRowTableViewCell.xib */; };
+		67FC2AE82865AC3A001729BB /* GoalsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC2AE62865AC3A001729BB /* GoalsCollectionViewCell.swift */; };
+		A22AFBD52862E18F00EE6CDC /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22AFBD42862E18F00EE6CDC /* Journal.swift */; };
+		A22AFBD92864208B00EE6CDC /* JournalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22AFBD72864208B00EE6CDC /* JournalTableViewCell.swift */; };
+		A22AFBDA2864208B00EE6CDC /* JournalTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A22AFBD82864208B00EE6CDC /* JournalTableViewCell.xib */; };
+		A22AFBDC28643ECA00EE6CDC /* JournalHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22AFBDB28643ECA00EE6CDC /* JournalHeaderView.swift */; };
+		A22AFBDE2865B3D000EE6CDC /* StaticValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22AFBDD2865B3D000EE6CDC /* StaticValues.swift */; };
+		A22AFBE12865CD4000EE6CDC /* Mission.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A22AFBE02865CD4000EE6CDC /* Mission.storyboard */; };
+		A22AFBE42865D3E900EE6CDC /* MissionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22AFBE22865D3E900EE6CDC /* MissionCollectionViewCell.swift */; };
+		A22AFBE52865D3E900EE6CDC /* MissionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A22AFBE32865D3E900EE6CDC /* MissionCollectionViewCell.xib */; };
+		A22AFBE72869681000EE6CDC /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22AFBE62869681000EE6CDC /* Mission.swift */; };
 		A29DCA71286062E600D67F77 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29DCA70286062E600D67F77 /* TabBarViewController.swift */; };
 		A29DCA732860632600D67F77 /* OverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29DCA722860632600D67F77 /* OverviewViewController.swift */; };
 		A29DCA752860646000D67F77 /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29DCA742860646000D67F77 /* JournalViewController.swift */; };
@@ -87,6 +112,32 @@
 		6787C40A2853445E00BDBDCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6787C40D2853445E00BDBDCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6787C40F2853445E00BDBDCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6B1FE6A28659E01008D97D8 /* Mini Challenge 2 Team 16.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Mini Challenge 2 Team 16.entitlements"; sourceTree = "<group>"; };
+		F6C4123B2861D4C500949181 /* InputNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputNameViewController.swift; sourceTree = "<group>"; };
+		F6C4123D2861D51000949181 /* InputGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputGoalViewController.swift; sourceTree = "<group>"; };
+		F6C4123F2861D55C00949181 /* InputStartingBalanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputStartingBalanceViewController.swift; sourceTree = "<group>"; };
+		F6D745762860887C0062DF61 /* OnboardingInputScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnboardingInputScreen.storyboard; sourceTree = "<group>"; };
+		F6D7458028608A270062DF61 /* OnboardingInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingInputViewController.swift; sourceTree = "<group>"; };
+		67FC2AC42863370E001729BB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		67FC2AC52863370E001729BB /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		67FC2ACC28633F83001729BB /* FirstRowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstRowTableViewCell.swift; sourceTree = "<group>"; };
+		67FC2ACD28633F83001729BB /* FirstRowTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstRowTableViewCell.xib; sourceTree = "<group>"; };
+		67FC2AD828645463001729BB /* SecondRowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondRowTableViewCell.swift; sourceTree = "<group>"; };
+		67FC2AD928645463001729BB /* SecondRowTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondRowTableViewCell.xib; sourceTree = "<group>"; };
+		67FC2ADC28659CA9001729BB /* ThirdRowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdRowTableViewCell.swift; sourceTree = "<group>"; };
+		67FC2ADD28659CA9001729BB /* ThirdRowTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdRowTableViewCell.xib; sourceTree = "<group>"; };
+		67FC2AE22865AA09001729BB /* FourthRowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthRowTableViewCell.swift; sourceTree = "<group>"; };
+		67FC2AE32865AA09001729BB /* FourthRowTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FourthRowTableViewCell.xib; sourceTree = "<group>"; };
+		67FC2AE62865AC3A001729BB /* GoalsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsCollectionViewCell.swift; sourceTree = "<group>"; };
+		A22AFBD42862E18F00EE6CDC /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
+		A22AFBD72864208B00EE6CDC /* JournalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalTableViewCell.swift; sourceTree = "<group>"; };
+		A22AFBD82864208B00EE6CDC /* JournalTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JournalTableViewCell.xib; sourceTree = "<group>"; };
+		A22AFBDB28643ECA00EE6CDC /* JournalHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalHeaderView.swift; sourceTree = "<group>"; };
+		A22AFBDD2865B3D000EE6CDC /* StaticValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticValues.swift; sourceTree = "<group>"; };
+		A22AFBE02865CD4000EE6CDC /* Mission.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Mission.storyboard; sourceTree = "<group>"; };
+		A22AFBE22865D3E900EE6CDC /* MissionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionCollectionViewCell.swift; sourceTree = "<group>"; };
+		A22AFBE32865D3E900EE6CDC /* MissionCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MissionCollectionViewCell.xib; sourceTree = "<group>"; };
+		A22AFBE62869681000EE6CDC /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 		A29DCA70286062E600D67F77 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		A29DCA722860632600D67F77 /* OverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewViewController.swift; sourceTree = "<group>"; };
 		A29DCA742860646000D67F77 /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
@@ -163,6 +214,8 @@
 			isa = PBXGroup;
 			children = (
 				1D4C07192860969500E2E9D6 /* OnboardingSlide.swift */,
+				A22AFBD42862E18F00EE6CDC /* Journal.swift */,
+				A22AFBE62869681000EE6CDC /* Mission.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -196,6 +249,11 @@
 		6787C3FD2853445D00BDBDCD /* Mini Challenge 2 Team 16 */ = {
 			isa = PBXGroup;
 			children = (
+				67FC2ABF286334B1001729BB /* Home */,
+				A22AFBDF2865CC6600EE6CDC /* Mission */,
+				A22AFBD62862E26A00EE6CDC /* Journal */,
+				F6B1FE6A28659E01008D97D8 /* Mini Challenge 2 Team 16.entitlements */,
+				F6D745732860880A0062DF61 /* OnboardingInput */,
 				1D4C071E2864559C00E2E9D6 /* InputIncome */,
 				1D4C0718286082E800E2E9D6 /* Models */,
 				1D4C06EB286067A400E2E9D6 /* CustomFonts */,
@@ -210,11 +268,62 @@
 				6787C4072853445D00BDBDCD /* Mini_Challenge_2_Team_16.xcdatamodeld */,
 				A29DCA70286062E600D67F77 /* TabBarViewController.swift */,
 				A29DCA722860632600D67F77 /* OverviewViewController.swift */,
-				A29DCA742860646000D67F77 /* JournalViewController.swift */,
-				A29DCA762860647D00D67F77 /* MissionViewController.swift */,
-				A29DCA7928606A0300D67F77 /* Journal.storyboard */,
+				A22AFBDD2865B3D000EE6CDC /* StaticValues.swift */,
 			);
 			path = "Mini Challenge 2 Team 16";
+			sourceTree = "<group>";
+		};
+		F6D745732860880A0062DF61 /* OnboardingInput */ = {
+			isa = PBXGroup;
+			children = (
+				F6D745762860887C0062DF61 /* OnboardingInputScreen.storyboard */,
+				F6D7458028608A270062DF61 /* OnboardingInputViewController.swift */,
+				F6C4123B2861D4C500949181 /* InputNameViewController.swift */,
+				F6C4123D2861D51000949181 /* InputGoalViewController.swift */,
+				F6C4123F2861D55C00949181 /* InputStartingBalanceViewController.swift */,
+			);
+			path = OnboardingInput;
+			sourceTree = "<group>";
+		};
+		A22AFBD62862E26A00EE6CDC /* Journal */ = {
+			isa = PBXGroup;
+			children = (
+				A29DCA742860646000D67F77 /* JournalViewController.swift */,
+				A29DCA7928606A0300D67F77 /* Journal.storyboard */,
+				A22AFBD72864208B00EE6CDC /* JournalTableViewCell.swift */,
+				A22AFBD82864208B00EE6CDC /* JournalTableViewCell.xib */,
+				A22AFBDB28643ECA00EE6CDC /* JournalHeaderView.swift */,
+			);
+			path = Journal;
+			sourceTree = "<group>";
+		};
+		67FC2ABF286334B1001729BB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				67FC2AC42863370E001729BB /* HomeViewController.swift */,
+				67FC2AC52863370E001729BB /* HomeViewController.xib */,
+				67FC2ACC28633F83001729BB /* FirstRowTableViewCell.swift */,
+				67FC2ACD28633F83001729BB /* FirstRowTableViewCell.xib */,
+				67FC2AD828645463001729BB /* SecondRowTableViewCell.swift */,
+				67FC2AD928645463001729BB /* SecondRowTableViewCell.xib */,
+				67FC2ADC28659CA9001729BB /* ThirdRowTableViewCell.swift */,
+				67FC2ADD28659CA9001729BB /* ThirdRowTableViewCell.xib */,
+				67FC2AE22865AA09001729BB /* FourthRowTableViewCell.swift */,
+				67FC2AE32865AA09001729BB /* FourthRowTableViewCell.xib */,
+				67FC2AE62865AC3A001729BB /* GoalsCollectionViewCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A22AFBDF2865CC6600EE6CDC /* Mission */ = {
+			isa = PBXGroup;
+			children = (
+				A29DCA762860647D00D67F77 /* MissionViewController.swift */,
+				A22AFBE02865CD4000EE6CDC /* Mission.storyboard */,
+				A22AFBE22865D3E900EE6CDC /* MissionCollectionViewCell.swift */,
+				A22AFBE32865D3E900EE6CDC /* MissionCollectionViewCell.xib */,
+			);
+			path = Mission;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +384,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A22AFBDA2864208B00EE6CDC /* JournalTableViewCell.xib in Resources */,
 				A29DCA7A28606A0300D67F77 /* Journal.storyboard in Resources */,
 				1D4C0715286067D500E2E9D6 /* TypeMates  CeraRoundProMedium.otf in Resources */,
 				1D4C0713286067D500E2E9D6 /* TypeMates  CeraRoundProThin.otf in Resources */,
@@ -285,18 +395,26 @@
 				1D4C0704286067C700E2E9D6 /* NunitoSans-Italic.ttf in Resources */,
 				1D4C0706286067C700E2E9D6 /* NunitoSans-Bold.ttf in Resources */,
 				1D4C0717286067D500E2E9D6 /* TypeMates  Cera Round Pro Bold.otf in Resources */,
+				A22AFBE52865D3E900EE6CDC /* MissionCollectionViewCell.xib in Resources */,
 				6787C40E2853445E00BDBDCD /* LaunchScreen.storyboard in Resources */,
+				67FC2ADB28645463001729BB /* SecondRowTableViewCell.xib in Resources */,
 				1D4C06FD286067C700E2E9D6 /* NunitoSans-BoldItalic.ttf in Resources */,
+				67FC2AE52865AA09001729BB /* FourthRowTableViewCell.xib in Resources */,
 				1D4C06EA28605B6600E2E9D6 /* OnboardingScreen.storyboard in Resources */,
 				6787C40B2853445E00BDBDCD /* Assets.xcassets in Resources */,
+				A22AFBE12865CD4000EE6CDC /* Mission.storyboard in Resources */,
 				1D4C0703286067C700E2E9D6 /* NunitoSans-SemiBoldItalic.ttf in Resources */,
 				1D4C0709286067C700E2E9D6 /* NunitoSans-ExtraBoldItalic.ttf in Resources */,
 				1D4C0702286067C700E2E9D6 /* NunitoSans-Regular.ttf in Resources */,
+				67FC2ACF28633F83001729BB /* FirstRowTableViewCell.xib in Resources */,
+				67FC2AC72863370E001729BB /* HomeViewController.xib in Resources */,
 				6787C4062853445D00BDBDCD /* Main.storyboard in Resources */,
 				1D4C0716286067D500E2E9D6 /* TypeMates  CeraRoundProBlack.otf in Resources */,
 				1D4C0714286067D500E2E9D6 /* TypeMates  CeraRoundProRegular.otf in Resources */,
 				1D4C07202864569200E2E9D6 /* InputIncome.storyboard in Resources */,
 				1D4C0712286067D500E2E9D6 /* TypeMates  CeraRoundProLight.otf in Resources */,
+				67FC2ADF28659CA9001729BB /* ThirdRowTableViewCell.xib in Resources */,
+				F6D745772860887C0062DF61 /* OnboardingInputScreen.storyboard in Resources */,
 				1D4C06FC286067C700E2E9D6 /* NunitoSans-LightItalic.ttf in Resources */,
 				1D4C06FE286067C700E2E9D6 /* NunitoSans-ExtraLight.ttf in Resources */,
 				1D4C0708286067C700E2E9D6 /* NunitoSans-Black.ttf in Resources */,
@@ -314,17 +432,33 @@
 			files = (
 				1D4C0722286456DB00E2E9D6 /* InputIncomeViewController.swift in Sources */,
 				A29DCA752860646000D67F77 /* JournalViewController.swift in Sources */,
+				F6D7458128608A270062DF61 /* OnboardingInputViewController.swift in Sources */,
 				6787C4032853445D00BDBDCD /* ViewController.swift in Sources */,
+				67FC2ADA28645463001729BB /* SecondRowTableViewCell.swift in Sources */,
+				A22AFBD92864208B00EE6CDC /* JournalTableViewCell.swift in Sources */,
+				A22AFBE42865D3E900EE6CDC /* MissionCollectionViewCell.swift in Sources */,
+				F6C4123E2861D51000949181 /* InputGoalViewController.swift in Sources */,
 				6787C4092853445D00BDBDCD /* Mini_Challenge_2_Team_16.xcdatamodeld in Sources */,
 				1DCA247A28699ADB0094FD20 /* InputExpenseViewController.swift in Sources */,
 				A29DCA772860647D00D67F77 /* MissionViewController.swift in Sources */,
+				67FC2ACE28633F83001729BB /* FirstRowTableViewCell.swift in Sources */,
 				A29DCA732860632600D67F77 /* OverviewViewController.swift in Sources */,
 				1D4C06E62860563600E2E9D6 /* OnboardingViewController.swift in Sources */,
+				A22AFBDC28643ECA00EE6CDC /* JournalHeaderView.swift in Sources */,
+				F6C412402861D55C00949181 /* InputStartingBalanceViewController.swift in Sources */,
+				F6C4123C2861D4C500949181 /* InputNameViewController.swift in Sources */,
 				6787C3FF2853445D00BDBDCD /* AppDelegate.swift in Sources */,
+				67FC2AE82865AC3A001729BB /* GoalsCollectionViewCell.swift in Sources */,
+				A22AFBDE2865B3D000EE6CDC /* StaticValues.swift in Sources */,
 				A29DCA71286062E600D67F77 /* TabBarViewController.swift in Sources */,
+				67FC2AE42865AA09001729BB /* FourthRowTableViewCell.swift in Sources */,
+				67FC2ADE28659CA9001729BB /* ThirdRowTableViewCell.swift in Sources */,
 				1D4C071A2860969500E2E9D6 /* OnboardingSlide.swift in Sources */,
+				A22AFBE72869681000EE6CDC /* Mission.swift in Sources */,
 				1D4C071C2860A27600E2E9D6 /* OnboardingCollectionViewCell.swift in Sources */,
 				6787C4012853445D00BDBDCD /* SceneDelegate.swift in Sources */,
+				A22AFBD52862E18F00EE6CDC /* Journal.swift in Sources */,
+				67FC2AC62863370E001729BB /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,6 +603,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Mini Challenge 2 Team 16/Mini Challenge 2 Team 16.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FD4B7DH8HN;
@@ -476,7 +611,7 @@
 				INFOPLIST_FILE = "Mini Challenge 2 Team 16/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = InputIncome;
+				INFOPLIST_KEY_UIMainStoryboardFile = OnboardingInputScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
@@ -498,6 +633,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Mini Challenge 2 Team 16/Mini Challenge 2 Team 16.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FD4B7DH8HN;
@@ -505,7 +641,7 @@
 				INFOPLIST_FILE = "Mini Challenge 2 Team 16/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = InputIncome;
+				INFOPLIST_KEY_UIMainStoryboardFile = OnboardingInputScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
