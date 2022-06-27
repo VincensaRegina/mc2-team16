@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NunitoSans-Bold.ttf">
+            <string>NunitoSans-Bold</string>
+        </array>
+        <array key="NunitoSans-Regular.ttf">
+            <string>NunitoSans-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MissionCollectionViewCell" id="gTV-IL-0wX" customClass="MissionCollectionViewCell" customModule="Mini_Challenge_2_Team_16" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="281" height="72"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="281" height="72"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="F6h-8p-eKY">
+                        <rect key="frame" x="8" y="0.0" width="58" height="72"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="58" id="asY-ob-sIz"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reward" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="137-ph-CM0">
+                        <rect key="frame" x="210" y="26.5" width="55" height="19"/>
+                        <fontDescription key="fontDescription" name="NunitoSans-Regular" family="Nunito Sans" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lXI-ti-hmb">
+                        <rect key="frame" x="86" y="26" width="45.5" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="150" id="cpU-kK-blH"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="NunitoSans-Bold" family="Nunito Sans" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" red="0.59607843137254901" green="0.74117647058823533" blue="0.95686274509803915" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="F6h-8p-eKY" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="ATU-En-Y9W"/>
+                <constraint firstAttribute="bottom" secondItem="F6h-8p-eKY" secondAttribute="bottom" id="DlX-xI-GaJ"/>
+                <constraint firstItem="lXI-ti-hmb" firstAttribute="leading" secondItem="F6h-8p-eKY" secondAttribute="trailing" constant="20" id="Np2-JB-Sw9"/>
+                <constraint firstItem="137-ph-CM0" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="S2y-JE-AFW"/>
+                <constraint firstItem="F6h-8p-eKY" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="Ycq-kU-7NV"/>
+                <constraint firstAttribute="trailing" secondItem="137-ph-CM0" secondAttribute="trailing" constant="16" id="dsg-v0-UYe"/>
+                <constraint firstItem="lXI-ti-hmb" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="oqz-rr-ah4"/>
+            </constraints>
+            <size key="customSize" width="281" height="50"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                    <integer key="value" value="6"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="imgIcon" destination="F6h-8p-eKY" id="hTd-6m-mQg"/>
+                <outlet property="txtName" destination="lXI-ti-hmb" id="tuF-2O-V4c"/>
+                <outlet property="txtReward" destination="137-ph-CM0" id="uyu-vM-iAg"/>
+            </connections>
+            <point key="canvasLocation" x="303.62318840579712" y="61.607142857142854"/>
+        </collectionViewCell>
+    </objects>
+</document>
