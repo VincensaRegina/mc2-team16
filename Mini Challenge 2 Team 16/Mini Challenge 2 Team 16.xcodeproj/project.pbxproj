@@ -32,6 +32,9 @@
 		1D4C0717286067D500E2E9D6 /* TypeMates  Cera Round Pro Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1D4C0711286067D500E2E9D6 /* TypeMates  Cera Round Pro Bold.otf */; };
 		1D4C071A2860969500E2E9D6 /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4C07192860969500E2E9D6 /* OnboardingSlide.swift */; };
 		1D4C071C2860A27600E2E9D6 /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4C071B2860A27600E2E9D6 /* OnboardingCollectionViewCell.swift */; };
+		1D4C07202864569200E2E9D6 /* InputIncome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D4C071F2864569200E2E9D6 /* InputIncome.storyboard */; };
+		1D4C0722286456DB00E2E9D6 /* InputIncomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4C0721286456DB00E2E9D6 /* InputIncomeViewController.swift */; };
+		1DCA247A28699ADB0094FD20 /* InputExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCA247928699ADB0094FD20 /* InputExpenseViewController.swift */; };
 		6787C3FF2853445D00BDBDCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6787C3FE2853445D00BDBDCD /* AppDelegate.swift */; };
 		6787C4012853445D00BDBDCD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6787C4002853445D00BDBDCD /* SceneDelegate.swift */; };
 		6787C4032853445D00BDBDCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6787C4022853445D00BDBDCD /* ViewController.swift */; };
@@ -39,11 +42,6 @@
 		6787C4092853445D00BDBDCD /* Mini_Challenge_2_Team_16.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6787C4072853445D00BDBDCD /* Mini_Challenge_2_Team_16.xcdatamodeld */; };
 		6787C40B2853445E00BDBDCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6787C40A2853445E00BDBDCD /* Assets.xcassets */; };
 		6787C40E2853445E00BDBDCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6787C40C2853445E00BDBDCD /* LaunchScreen.storyboard */; };
-		F6C4123C2861D4C500949181 /* InputNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C4123B2861D4C500949181 /* InputNameViewController.swift */; };
-		F6C4123E2861D51000949181 /* InputGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C4123D2861D51000949181 /* InputGoalViewController.swift */; };
-		F6C412402861D55C00949181 /* InputStartingBalanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C4123F2861D55C00949181 /* InputStartingBalanceViewController.swift */; };
-		F6D745772860887C0062DF61 /* OnboardingInputScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D745762860887C0062DF61 /* OnboardingInputScreen.storyboard */; };
-		F6D7458128608A270062DF61 /* OnboardingInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D7458028608A270062DF61 /* OnboardingInputViewController.swift */; };
 		67FC2AC62863370E001729BB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC2AC42863370E001729BB /* HomeViewController.swift */; };
 		67FC2AC72863370E001729BB /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67FC2AC52863370E001729BB /* HomeViewController.xib */; };
 		67FC2ACE28633F83001729BB /* FirstRowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC2ACC28633F83001729BB /* FirstRowTableViewCell.swift */; };
@@ -69,6 +67,11 @@
 		A29DCA752860646000D67F77 /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29DCA742860646000D67F77 /* JournalViewController.swift */; };
 		A29DCA772860647D00D67F77 /* MissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29DCA762860647D00D67F77 /* MissionViewController.swift */; };
 		A29DCA7A28606A0300D67F77 /* Journal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A29DCA7928606A0300D67F77 /* Journal.storyboard */; };
+		F6C4123C2861D4C500949181 /* InputNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C4123B2861D4C500949181 /* InputNameViewController.swift */; };
+		F6C4123E2861D51000949181 /* InputGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C4123D2861D51000949181 /* InputGoalViewController.swift */; };
+		F6C412402861D55C00949181 /* InputStartingBalanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C4123F2861D55C00949181 /* InputStartingBalanceViewController.swift */; };
+		F6D745772860887C0062DF61 /* OnboardingInputScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D745762860887C0062DF61 /* OnboardingInputScreen.storyboard */; };
+		F6D7458128608A270062DF61 /* OnboardingInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D7458028608A270062DF61 /* OnboardingInputViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -97,6 +100,9 @@
 		1D4C0711286067D500E2E9D6 /* TypeMates  Cera Round Pro Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TypeMates  Cera Round Pro Bold.otf"; sourceTree = "<group>"; };
 		1D4C07192860969500E2E9D6 /* OnboardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
 		1D4C071B2860A27600E2E9D6 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		1D4C071F2864569200E2E9D6 /* InputIncome.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InputIncome.storyboard; sourceTree = "<group>"; };
+		1D4C0721286456DB00E2E9D6 /* InputIncomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputIncomeViewController.swift; sourceTree = "<group>"; };
+		1DCA247928699ADB0094FD20 /* InputExpenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputExpenseViewController.swift; sourceTree = "<group>"; };
 		6787C3FB2853445D00BDBDCD /* Mini Challenge 2 Team 16.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mini Challenge 2 Team 16.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6787C3FE2853445D00BDBDCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6787C4002853445D00BDBDCD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,12 +112,6 @@
 		6787C40A2853445E00BDBDCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6787C40D2853445E00BDBDCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6787C40F2853445E00BDBDCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F6B1FE6A28659E01008D97D8 /* Mini Challenge 2 Team 16.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Mini Challenge 2 Team 16.entitlements"; sourceTree = "<group>"; };
-		F6C4123B2861D4C500949181 /* InputNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputNameViewController.swift; sourceTree = "<group>"; };
-		F6C4123D2861D51000949181 /* InputGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputGoalViewController.swift; sourceTree = "<group>"; };
-		F6C4123F2861D55C00949181 /* InputStartingBalanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputStartingBalanceViewController.swift; sourceTree = "<group>"; };
-		F6D745762860887C0062DF61 /* OnboardingInputScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnboardingInputScreen.storyboard; sourceTree = "<group>"; };
-		F6D7458028608A270062DF61 /* OnboardingInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingInputViewController.swift; sourceTree = "<group>"; };
 		67FC2AC42863370E001729BB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		67FC2AC52863370E001729BB /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		67FC2ACC28633F83001729BB /* FirstRowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstRowTableViewCell.swift; sourceTree = "<group>"; };
@@ -137,6 +137,12 @@
 		A29DCA742860646000D67F77 /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
 		A29DCA762860647D00D67F77 /* MissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionViewController.swift; sourceTree = "<group>"; };
 		A29DCA7928606A0300D67F77 /* Journal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Journal.storyboard; sourceTree = "<group>"; };
+		F6B1FE6A28659E01008D97D8 /* Mini Challenge 2 Team 16.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Mini Challenge 2 Team 16.entitlements"; sourceTree = "<group>"; };
+		F6C4123B2861D4C500949181 /* InputNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputNameViewController.swift; sourceTree = "<group>"; };
+		F6C4123D2861D51000949181 /* InputGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputGoalViewController.swift; sourceTree = "<group>"; };
+		F6C4123F2861D55C00949181 /* InputStartingBalanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputStartingBalanceViewController.swift; sourceTree = "<group>"; };
+		F6D745762860887C0062DF61 /* OnboardingInputScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnboardingInputScreen.storyboard; sourceTree = "<group>"; };
+		F6D7458028608A270062DF61 /* OnboardingInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingInputViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +220,16 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		1D4C071E2864559C00E2E9D6 /* InputIncome */ = {
+			isa = PBXGroup;
+			children = (
+				1D4C071F2864569200E2E9D6 /* InputIncome.storyboard */,
+				1D4C0721286456DB00E2E9D6 /* InputIncomeViewController.swift */,
+				1DCA247928699ADB0094FD20 /* InputExpenseViewController.swift */,
+			);
+			path = InputIncome;
+			sourceTree = "<group>";
+		};
 		6787C3F22853445D00BDBDCD = {
 			isa = PBXGroup;
 			children = (
@@ -238,6 +254,7 @@
 				A22AFBD62862E26A00EE6CDC /* Journal */,
 				F6B1FE6A28659E01008D97D8 /* Mini Challenge 2 Team 16.entitlements */,
 				F6D745732860880A0062DF61 /* OnboardingInput */,
+				1D4C071E2864559C00E2E9D6 /* InputIncome */,
 				1D4C0718286082E800E2E9D6 /* Models */,
 				1D4C06EB286067A400E2E9D6 /* CustomFonts */,
 				1D4C06E2286055EF00E2E9D6 /* Onboarding */,
@@ -254,30 +271,6 @@
 				A22AFBDD2865B3D000EE6CDC /* StaticValues.swift */,
 			);
 			path = "Mini Challenge 2 Team 16";
-			sourceTree = "<group>";
-		};
-		F6D745732860880A0062DF61 /* OnboardingInput */ = {
-			isa = PBXGroup;
-			children = (
-				F6D745762860887C0062DF61 /* OnboardingInputScreen.storyboard */,
-				F6D7458028608A270062DF61 /* OnboardingInputViewController.swift */,
-				F6C4123B2861D4C500949181 /* InputNameViewController.swift */,
-				F6C4123D2861D51000949181 /* InputGoalViewController.swift */,
-				F6C4123F2861D55C00949181 /* InputStartingBalanceViewController.swift */,
-			);
-			path = OnboardingInput;
-			sourceTree = "<group>";
-		};
-		A22AFBD62862E26A00EE6CDC /* Journal */ = {
-			isa = PBXGroup;
-			children = (
-				A29DCA742860646000D67F77 /* JournalViewController.swift */,
-				A29DCA7928606A0300D67F77 /* Journal.storyboard */,
-				A22AFBD72864208B00EE6CDC /* JournalTableViewCell.swift */,
-				A22AFBD82864208B00EE6CDC /* JournalTableViewCell.xib */,
-				A22AFBDB28643ECA00EE6CDC /* JournalHeaderView.swift */,
-			);
-			path = Journal;
 			sourceTree = "<group>";
 		};
 		67FC2ABF286334B1001729BB /* Home */ = {
@@ -298,6 +291,18 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
+		A22AFBD62862E26A00EE6CDC /* Journal */ = {
+			isa = PBXGroup;
+			children = (
+				A29DCA742860646000D67F77 /* JournalViewController.swift */,
+				A29DCA7928606A0300D67F77 /* Journal.storyboard */,
+				A22AFBD72864208B00EE6CDC /* JournalTableViewCell.swift */,
+				A22AFBD82864208B00EE6CDC /* JournalTableViewCell.xib */,
+				A22AFBDB28643ECA00EE6CDC /* JournalHeaderView.swift */,
+			);
+			path = Journal;
+			sourceTree = "<group>";
+		};
 		A22AFBDF2865CC6600EE6CDC /* Mission */ = {
 			isa = PBXGroup;
 			children = (
@@ -307,6 +312,18 @@
 				A22AFBE32865D3E900EE6CDC /* MissionCollectionViewCell.xib */,
 			);
 			path = Mission;
+			sourceTree = "<group>";
+		};
+		F6D745732860880A0062DF61 /* OnboardingInput */ = {
+			isa = PBXGroup;
+			children = (
+				F6D745762860887C0062DF61 /* OnboardingInputScreen.storyboard */,
+				F6D7458028608A270062DF61 /* OnboardingInputViewController.swift */,
+				F6C4123B2861D4C500949181 /* InputNameViewController.swift */,
+				F6C4123D2861D51000949181 /* InputGoalViewController.swift */,
+				F6C4123F2861D55C00949181 /* InputStartingBalanceViewController.swift */,
+			);
+			path = OnboardingInput;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -394,6 +411,7 @@
 				6787C4062853445D00BDBDCD /* Main.storyboard in Resources */,
 				1D4C0716286067D500E2E9D6 /* TypeMates  CeraRoundProBlack.otf in Resources */,
 				1D4C0714286067D500E2E9D6 /* TypeMates  CeraRoundProRegular.otf in Resources */,
+				1D4C07202864569200E2E9D6 /* InputIncome.storyboard in Resources */,
 				1D4C0712286067D500E2E9D6 /* TypeMates  CeraRoundProLight.otf in Resources */,
 				67FC2ADF28659CA9001729BB /* ThirdRowTableViewCell.xib in Resources */,
 				F6D745772860887C0062DF61 /* OnboardingInputScreen.storyboard in Resources */,
@@ -412,6 +430,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D4C0722286456DB00E2E9D6 /* InputIncomeViewController.swift in Sources */,
 				A29DCA752860646000D67F77 /* JournalViewController.swift in Sources */,
 				F6D7458128608A270062DF61 /* OnboardingInputViewController.swift in Sources */,
 				6787C4032853445D00BDBDCD /* ViewController.swift in Sources */,
@@ -420,6 +439,7 @@
 				A22AFBE42865D3E900EE6CDC /* MissionCollectionViewCell.swift in Sources */,
 				F6C4123E2861D51000949181 /* InputGoalViewController.swift in Sources */,
 				6787C4092853445D00BDBDCD /* Mini_Challenge_2_Team_16.xcdatamodeld in Sources */,
+				1DCA247A28699ADB0094FD20 /* InputExpenseViewController.swift in Sources */,
 				A29DCA772860647D00D67F77 /* MissionViewController.swift in Sources */,
 				67FC2ACE28633F83001729BB /* FirstRowTableViewCell.swift in Sources */,
 				A29DCA732860632600D67F77 /* OverviewViewController.swift in Sources */,
@@ -583,7 +603,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Mini Challenge 2 Team 16/Mini Challenge 2 Team 16.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FD4B7DH8HN;
@@ -613,7 +633,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Mini Challenge 2 Team 16/Mini Challenge 2 Team 16.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FD4B7DH8HN;

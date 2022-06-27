@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>NunitoSans-LightItalic.ttf</string>
+		<string>NunitoSans-BoldItalic.ttf</string>
+		<string>NunitoSans-ExtraLight.ttf</string>
+		<string>NunitoSans-Light.ttf</string>
+		<string>NunitoSans-BlackItalic.ttf</string>
+		<string>NunitoSans-ExtraBold.ttf</string>
+		<string>NunitoSans-Regular.ttf</string>
+		<string>NunitoSans-SemiBoldItalic.ttf</string>
+		<string>NunitoSans-Italic.ttf</string>
+		<string>NunitoSans-Bold.ttf</string>
+		<string>NunitoSans-SemiBold.ttf</string>
+		<string>NunitoSans-Black.ttf</string>
+		<string>NunitoSans-ExtraBoldItalic.ttf</string>
+		<string>NunitoSans-ExtraLightItalic.ttf</string>
+		<string>TypeMates  CeraRoundProLight.otf</string>
+		<string>TypeMates  CeraRoundProThin.otf</string>
+		<string>TypeMates  CeraRoundProRegular.otf</string>
+		<string>TypeMates  CeraRoundProMedium.otf</string>
+		<string>TypeMates  CeraRoundProBlack.otf</string>
+		<string>TypeMates  Cera Round Pro Bold.otf</string>
+	</array>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>InputIncome</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>
