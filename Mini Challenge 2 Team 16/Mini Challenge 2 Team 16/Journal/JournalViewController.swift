@@ -11,8 +11,8 @@ class JournalViewController: UIViewController {
     
     @IBOutlet weak var btnGoal: UIButton!
     @IBOutlet weak var txtCurrBalance: UILabel!
-    @IBOutlet weak var pbGoal: UIProgressView!
     @IBOutlet weak var txtGoalAmount: UILabel!
+    @IBOutlet weak var pbGoal: UIProgressView!
     @IBOutlet weak var txtDate: UILabel!
     @IBOutlet weak var scSection: UISegmentedControl!
     @IBOutlet weak var btnLeft: UIButton!
@@ -27,17 +27,21 @@ class JournalViewController: UIViewController {
         tbJournal.delegate = self
         tbJournal.dataSource = self
         self.registerTableView()
+        
+        txtCurrBalance.text = String(format: "%ld %@", locale: Locale.current, 300000, "")
+        txtGoalAmount.text = String(format: "%ld %@", locale: Locale.current, 3000000, "")
+        
     }
     
     @IBAction func valueChanged(_ sender: Any) {
         switch scSection.selectedSegmentIndex
-            {
-            case 0:
-               break
-            case 1:
-                break
-            default:
-                break
+        {
+        case 0:
+            break
+        case 1:
+            break
+        default:
+            break
         }
     }
     
@@ -57,7 +61,7 @@ class JournalViewController: UIViewController {
 extension JournalViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         print(journalSeed[section].desc)
-//        if (journalSeed[section])
+        //        if (journalSeed[section])
         return journalSeed.count
     }
     
