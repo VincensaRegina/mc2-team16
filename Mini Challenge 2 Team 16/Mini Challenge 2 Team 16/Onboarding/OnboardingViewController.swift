@@ -63,7 +63,7 @@ class OnboardingViewController: UIViewController {
     
     @IBAction func nextBtnClicked(_ sender: Any) {
         if currentPage == slides.count - 1 {
-            print("Go To The Next Page")
+            performSegue(withIdentifier: "onboardingSegue", sender: self)
         } else {
             currentPage += 1
             let indexPath = IndexPath(item: currentPage, section: 0)
@@ -73,8 +73,9 @@ class OnboardingViewController: UIViewController {
     
     
     @IBAction func skipBtnClicked(_ sender: Any) {
-        print("Go To The Next Page")
+        performSegue(withIdentifier: "onboardingSegue", sender: self)
     }
+
     
 }
 

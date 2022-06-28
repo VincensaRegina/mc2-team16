@@ -18,7 +18,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let home = TabBarViewController()
         let onboardingStoryboard = UIStoryboard(name: "OnboardingScreen", bundle: nil)
         let onboardingVC = onboardingStoryboard.instantiateViewController(withIdentifier: "OnboardingScreen")
-        self.window?.rootViewController = home
+        self.window?.rootViewController = onboardingVC
         window?.makeKeyAndVisible()
         window?.windowScene = windowScene
         
