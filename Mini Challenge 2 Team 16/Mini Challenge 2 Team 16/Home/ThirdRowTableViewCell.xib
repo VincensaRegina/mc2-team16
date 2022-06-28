@@ -26,21 +26,28 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R9W-z0-20G">
                         <rect key="frame" x="0.0" y="0.0" width="515" height="189"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add Transaction" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KhK-1I-xC3">
-                                <rect key="frame" x="16" y="13" width="483" height="36"/>
-                                <fontDescription key="fontDescription" name="CeraRoundPro-Bold" family="Cera Round Pro" pointSize="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add My Transaction" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KhK-1I-xC3">
+                                <rect key="frame" x="16" y="13" width="483" height="26"/>
+                                <fontDescription key="fontDescription" name="CeraRoundPro-Bold" family="Cera Round Pro" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="iQc-Jm-knX">
-                                <rect key="frame" x="16" y="57" width="483" height="44"/>
+                                <rect key="frame" x="16" y="47" width="483" height="44"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dx8-DZ-YHW">
                                         <rect key="frame" x="0.0" y="0.0" width="233.5" height="44"/>
                                         <color key="tintColor" name="Green"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Income">
-                                            <color key="baseBackgroundColor" name="Green"/>
+                                        <buttonConfiguration key="configuration" style="filled" image="arrow.up" catalog="system" imagePadding="12">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Income">
+                                                    <attributes>
+                                                        <font key="NSFont" size="17" name="NunitoSans-Bold"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <color key="baseBackgroundColor" name="Income"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="incomeButtonPressed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="cYJ-qe-c5H"/>
@@ -50,8 +57,15 @@
                                         <rect key="frame" x="249.5" y="0.0" width="233.5" height="44"/>
                                         <color key="tintColor" systemColor="systemRedColor"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Expenses">
-                                            <color key="baseBackgroundColor" systemColor="systemRedColor"/>
+                                        <buttonConfiguration key="configuration" style="filled" image="arrow.down" catalog="system" imagePadding="12">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Expense">
+                                                    <attributes>
+                                                        <font key="NSFont" size="17" name="NunitoSans-Bold"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <color key="baseBackgroundColor" name="Expense"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="expensesButtonPressed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="77K-9L-vfv"/>
@@ -87,8 +101,16 @@
         </tableViewCell>
     </objects>
     <resources>
+        <image name="arrow.down" catalog="system" width="120" height="128"/>
+        <image name="arrow.up" catalog="system" width="120" height="128"/>
+        <namedColor name="Expense">
+            <color red="0.85900002717971802" green="0.34099999070167542" blue="0.24300000071525574" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="Green">
             <color red="0.093999996781349182" green="0.5220000147819519" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Income">
+            <color red="0.45899999141693115" green="0.67500001192092896" blue="0.41200000047683716" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

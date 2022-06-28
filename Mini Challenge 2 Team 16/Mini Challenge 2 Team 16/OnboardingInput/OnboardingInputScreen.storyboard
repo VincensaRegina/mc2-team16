@@ -10,7 +10,7 @@
         <!--Onboarding Input View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController storyboardIdentifier="Main" id="Y6W-OH-hqX" customClass="OnboardingInputViewController" customModule="Mini_Challenge_2_Team_16" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="OnboardingInputViewController" modalPresentationStyle="fullScreen" id="Y6W-OH-hqX" customClass="OnboardingInputViewController" customModule="Mini_Challenge_2_Team_16" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -200,7 +200,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="Next">
                                             <attributes>
-                                                <font key="NSFont" metaFont="system" size="20"/>
+                                                <font key="NSFont" size="20" name="CeraRoundPro-Bold"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
@@ -334,7 +334,8 @@
         <!--Navigation Controller-->
         <scene sceneID="dq4-Oo-4L9">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cVA-Ul-w2J" sceneMemberID="viewController">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wBj-rL-aJO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="cVA-Ul-w2J" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="db9-wf-wGU">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -345,7 +346,6 @@
                         <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="2Xu-q5-2Lf"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="wBj-rL-aJO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="34.782608695652179" y="93.75"/>
         </scene>
