@@ -62,6 +62,7 @@
 		A22AFBE42865D3E900EE6CDC /* MissionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22AFBE22865D3E900EE6CDC /* MissionCollectionViewCell.swift */; };
 		A22AFBE52865D3E900EE6CDC /* MissionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A22AFBE32865D3E900EE6CDC /* MissionCollectionViewCell.xib */; };
 		A22AFBE72869681000EE6CDC /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22AFBE62869681000EE6CDC /* Mission.swift */; };
+		A22AFBEA2869A84F00EE6CDC /* MonthYearPicker in Frameworks */ = {isa = PBXBuildFile; productRef = A22AFBE92869A84F00EE6CDC /* MonthYearPicker */; };
 		A29DCA71286062E600D67F77 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29DCA70286062E600D67F77 /* TabBarViewController.swift */; };
 		A29DCA732860632600D67F77 /* OverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29DCA722860632600D67F77 /* OverviewViewController.swift */; };
 		A29DCA752860646000D67F77 /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29DCA742860646000D67F77 /* JournalViewController.swift */; };
@@ -150,6 +151,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A22AFBEA2869A84F00EE6CDC /* MonthYearPicker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +344,9 @@
 			dependencies = (
 			);
 			name = "Mini Challenge 2 Team 16";
+			packageProductDependencies = (
+				A22AFBE92869A84F00EE6CDC /* MonthYearPicker */,
+			);
 			productName = "Mini Challenge 2 Team 16";
 			productReference = 6787C3FB2853445D00BDBDCD /* Mini Challenge 2 Team 16.app */;
 			productType = "com.apple.product-type.application";
@@ -370,6 +375,9 @@
 				Base,
 			);
 			mainGroup = 6787C3F22853445D00BDBDCD;
+			packageReferences = (
+				A22AFBE82869A84F00EE6CDC /* XCRemoteSwiftPackageReference "MonthYearPicker" */,
+			);
 			productRefGroup = 6787C3FC2853445D00BDBDCD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -680,6 +688,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A22AFBE82869A84F00EE6CDC /* XCRemoteSwiftPackageReference "MonthYearPicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alexanderedge/MonthYearPicker.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A22AFBE92869A84F00EE6CDC /* MonthYearPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A22AFBE82869A84F00EE6CDC /* XCRemoteSwiftPackageReference "MonthYearPicker" */;
+			productName = MonthYearPicker;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		6787C4072853445D00BDBDCD /* Mini_Challenge_2_Team_16.xcdatamodeld */ = {
