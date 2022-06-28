@@ -26,13 +26,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="358" height="159"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Goals" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r8W-H3-khG">
-                                <rect key="frame" x="8" y="8" width="342" height="36"/>
-                                <fontDescription key="fontDescription" name="CeraRoundPro-Bold" family="Cera Round Pro" pointSize="36"/>
+                                <rect key="frame" x="8" y="8" width="342" height="22"/>
+                                <fontDescription key="fontDescription" name="CeraRoundPro-Bold" family="Cera Round Pro" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="z9L-Yl-tRU">
-                                <rect key="frame" x="8" y="52" width="342" height="95"/>
+                                <rect key="frame" x="8" y="38" width="342" height="109"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="IK4-IN-Gum">
                                     <size key="itemSize" width="128" height="128"/>

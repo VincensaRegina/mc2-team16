@@ -27,13 +27,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="515" height="189"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add Transaction" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KhK-1I-xC3">
-                                <rect key="frame" x="16" y="13" width="483" height="36"/>
-                                <fontDescription key="fontDescription" name="CeraRoundPro-Bold" family="Cera Round Pro" pointSize="36"/>
+                                <rect key="frame" x="16" y="13" width="483" height="22"/>
+                                <fontDescription key="fontDescription" name="CeraRoundPro-Bold" family="Cera Round Pro" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="iQc-Jm-knX">
-                                <rect key="frame" x="16" y="57" width="483" height="44"/>
+                                <rect key="frame" x="16" y="43" width="483" height="44"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dx8-DZ-YHW">
                                         <rect key="frame" x="0.0" y="0.0" width="233.5" height="44"/>

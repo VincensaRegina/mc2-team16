@@ -46,9 +46,9 @@ class GoalsCollectionViewCell: UICollectionViewCell {
     
     override func layoutSubviews() {
         super.layoutSubviews()
-        goalsLabel.frame = CGRect(x: contentView.frame.size.width + 50, y: 5, width: contentView.frame.size.width - 10, height: 100)
-        goalsLabelPrice.frame = CGRect(x: contentView.frame.size.width + 50, y: 30, width: contentView.frame.size.width - 10, height: 100)
-        progressBar.frame = CGRect(x: contentView.frame.size.width + 50, y: 100, width: contentView.frame.size.width, height: 100)
+        goalsLabel.frame = CGRect(x: contentView.frame.size.width + 10, y: 5, width: contentView.frame.size.width - 10, height: 100)
+        goalsLabelPrice.frame = CGRect(x: contentView.frame.size.width + 10, y: 30, width: contentView.frame.size.width - 10, height: 100)
+        progressBar.frame = CGRect(x: contentView.frame.size.width + 10, y: 100, width: contentView.frame.size.width, height: 100)
     }
     
     required init?(coder: NSCoder) {

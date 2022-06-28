@@ -13,7 +13,7 @@ class FirstRowTableViewCell: UITableViewCell {
     
     let label: UILabel = {
         let label = UILabel()
-        label.font = UIFont(name: "CeraRoundPro-Bold", size: 36)
+        label.font = UIFont(name: "CeraRoundPro-Bold", size: 22)
         label.text = "Aldi"
         return label
     }()
@@ -50,7 +50,6 @@ class FirstRowTableViewCell: UITableViewCell {
     
     override func layoutSubviews() {
         super.layoutSubviews()
-        let x =  label.frame.size.width
         label.frame = CGRect(x: 5, y: 5, width: 100, height: contentView.frame.size.height-10)
         progressBar.frame = CGRect(x: 5, y: 80, width: contentView.frame.size.width, height: contentView.frame.size.height-10)
         label2.frame = CGRect(x: contentView.frame.size.width-60, y: 10, width: contentView.frame.size.width - 10 , height: contentView.frame.size.height-10)
