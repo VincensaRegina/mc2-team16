@@ -11,6 +11,10 @@ class TabBarViewController: UITabBarController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        modalPresentationStyle = .fullScreen
+        modalTransitionStyle = .crossDissolve
+        
         let journalStoryboard = UIStoryboard(name: "Journal", bundle: nil)
         let overviewVC = journalStoryboard.instantiateViewController(withIdentifier: "JournalViewController")
         overviewVC.tabBarItem.image =  UIImage(systemName: "house")

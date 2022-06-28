@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ThirdRowTableViewCell: UITableViewCell {
+class ThirdRowTableViewCell: UITableViewCell{
     
     static let identifier = "ThirdCell"
 
@@ -18,6 +18,8 @@ class ThirdRowTableViewCell: UITableViewCell {
 
     
     @IBAction func incomeButtonPressed(_ sender: Any) {
+        
+        
     }
     
     @IBAction func expensesButtonPressed(_ sender: Any) {

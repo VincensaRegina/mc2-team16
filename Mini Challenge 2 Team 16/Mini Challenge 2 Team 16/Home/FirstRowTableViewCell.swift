@@ -21,7 +21,7 @@ class FirstRowTableViewCell: UITableViewCell {
     let label2: UILabel = {
         let label = UILabel()
         label.text = "Level 2"
-        label.font = UIFont(name: "CeraRoundPro-Bold", size: 16)
+        label.font = UIFont(name: "NunitoSans-SemiBold", size: 16)
         return label
     }()
     

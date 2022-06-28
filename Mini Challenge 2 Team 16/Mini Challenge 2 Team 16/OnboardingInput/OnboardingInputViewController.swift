@@ -37,7 +37,7 @@ class OnboardingInputViewController: UIViewController {
     @IBAction func GetstartedAction(_ sender: Any) {
         let namestoryboard = UIStoryboard(name:"OnboardingInputScreen", bundle: nil)
         let vc = namestoryboard.instantiateViewController(withIdentifier: "InputNameViewController") as! InputNameViewController
-        self.navigationController!.pushViewController(vc, animated: true)
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
 }

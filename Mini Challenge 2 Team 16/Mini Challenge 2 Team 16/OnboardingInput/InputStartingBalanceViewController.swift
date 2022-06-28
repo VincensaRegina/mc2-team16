@@ -36,9 +36,9 @@ class InputStartingBalanceViewController: UIViewController {
     }
     
     @IBAction func NextGoalbtnAction(_ sender: Any) {
-        let namestoryboard = UIStoryboard(name:"OnboardingInputScreen", bundle: nil)
-        let vc = namestoryboard.instantiateViewController(withIdentifier: "InputStartingBalanceViewController") as! InputStartingBalanceViewController
-        self.navigationController!.pushViewController(vc, animated: true)
+        let vc = TabBarViewController()
+        self.present(vc, animated: true)
+        
     }
 }
 
