@@ -55,7 +55,6 @@ class HomeViewController: UIViewController {
     }
     
     
-
 }
 
 extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
@@ -96,4 +95,5 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
         }
         return 200
     }
+    
 }

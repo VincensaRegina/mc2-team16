@@ -27,23 +27,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="515" height="189"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add My Transaction" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KhK-1I-xC3">
-                                <rect key="frame" x="16" y="13" width="483" height="26"/>
+                                <rect key="frame" x="8" y="13" width="499" height="22"/>
                                 <fontDescription key="fontDescription" name="CeraRoundPro-Bold" family="Cera Round Pro" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="iQc-Jm-knX">
-                                <rect key="frame" x="16" y="47" width="483" height="44"/>
+                                <rect key="frame" x="8" y="43" width="499" height="44"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dx8-DZ-YHW">
-                                        <rect key="frame" x="0.0" y="0.0" width="233.5" height="44"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="241.5" height="44"/>
                                         <color key="tintColor" name="Green"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" image="arrow.up" catalog="system" imagePadding="12">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Income">
                                                     <attributes>
-                                                        <font key="NSFont" size="17" name="NunitoSans-Bold"/>
+                                                        <font key="NSFont" metaFont="system" size="17"/>
                                                     </attributes>
                                                 </fragment>
                                             </attributedString>
@@ -54,14 +54,14 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RNz-yJ-XN6">
-                                        <rect key="frame" x="249.5" y="0.0" width="233.5" height="44"/>
+                                        <rect key="frame" x="257.5" y="0.0" width="241.5" height="44"/>
                                         <color key="tintColor" systemColor="systemRedColor"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" image="arrow.down" catalog="system" imagePadding="12">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Expense">
                                                     <attributes>
-                                                        <font key="NSFont" size="17" name="NunitoSans-Bold"/>
+                                                        <font key="NSFont" metaFont="system" size="17"/>
                                                     </attributes>
                                                 </fragment>
                                             </attributedString>
@@ -81,11 +81,11 @@
                         <constraints>
                             <constraint firstItem="iQc-Jm-knX" firstAttribute="top" secondItem="KhK-1I-xC3" secondAttribute="bottom" constant="8" id="2an-rh-nMm"/>
                             <constraint firstItem="iQc-Jm-knX" firstAttribute="centerX" secondItem="R9W-z0-20G" secondAttribute="centerX" id="3fQ-Xg-sWf"/>
-                            <constraint firstAttribute="trailing" secondItem="KhK-1I-xC3" secondAttribute="trailing" constant="16" id="BzH-az-c4h"/>
+                            <constraint firstAttribute="trailing" secondItem="KhK-1I-xC3" secondAttribute="trailing" constant="8" id="BzH-az-c4h"/>
                             <constraint firstItem="KhK-1I-xC3" firstAttribute="top" secondItem="R9W-z0-20G" secondAttribute="top" constant="13" id="aas-tz-l8D"/>
-                            <constraint firstAttribute="trailing" secondItem="iQc-Jm-knX" secondAttribute="trailing" constant="16" id="ddG-1b-Sls"/>
-                            <constraint firstItem="iQc-Jm-knX" firstAttribute="leading" secondItem="R9W-z0-20G" secondAttribute="leading" constant="16" id="lAr-uO-tHs"/>
-                            <constraint firstItem="KhK-1I-xC3" firstAttribute="leading" secondItem="R9W-z0-20G" secondAttribute="leading" constant="16" id="rKv-O2-H0S"/>
+                            <constraint firstAttribute="trailing" secondItem="iQc-Jm-knX" secondAttribute="trailing" constant="8" id="ddG-1b-Sls"/>
+                            <constraint firstItem="iQc-Jm-knX" firstAttribute="leading" secondItem="R9W-z0-20G" secondAttribute="leading" constant="8" id="lAr-uO-tHs"/>
+                            <constraint firstItem="KhK-1I-xC3" firstAttribute="leading" secondItem="R9W-z0-20G" secondAttribute="leading" constant="8" id="rKv-O2-H0S"/>
                         </constraints>
                     </view>
                 </subviews>

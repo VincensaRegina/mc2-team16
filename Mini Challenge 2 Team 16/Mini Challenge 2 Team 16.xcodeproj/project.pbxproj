@@ -42,6 +42,20 @@
 		6787C4092853445D00BDBDCD /* Mini_Challenge_2_Team_16.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6787C4072853445D00BDBDCD /* Mini_Challenge_2_Team_16.xcdatamodeld */; };
 		6787C40B2853445E00BDBDCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6787C40A2853445E00BDBDCD /* Assets.xcassets */; };
 		6787C40E2853445E00BDBDCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6787C40C2853445E00BDBDCD /* LaunchScreen.storyboard */; };
+		6792FB45286C286E0090D7A2 /* HistoryBalance+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6792FB37286C286E0090D7A2 /* HistoryBalance+CoreDataClass.swift */; };
+		6792FB46286C286E0090D7A2 /* HistoryBalance+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6792FB38286C286E0090D7A2 /* HistoryBalance+CoreDataProperties.swift */; };
+		6792FB47286C286E0090D7A2 /* Level+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6792FB39286C286E0090D7A2 /* Level+CoreDataClass.swift */; };
+		6792FB48286C286E0090D7A2 /* Level+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6792FB3A286C286E0090D7A2 /* Level+CoreDataProperties.swift */; };
+		6792FB49286C286E0090D7A2 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6792FB3B286C286E0090D7A2 /* Person+CoreDataClass.swift */; };
+		6792FB4A286C286E0090D7A2 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6792FB3C286C286E0090D7A2 /* Person+CoreDataProperties.swift */; };
+		6792FB4B286C286E0090D7A2 /* Mission+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6792FB3D286C286E0090D7A2 /* Mission+CoreDataClass.swift */; };
+		6792FB4C286C286E0090D7A2 /* Mission+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6792FB3E286C286E0090D7A2 /* Mission+CoreDataProperties.swift */; };
+		6792FB4D286C286E0090D7A2 /* Goals+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6792FB3F286C286E0090D7A2 /* Goals+CoreDataClass.swift */; };
+		6792FB4E286C286E0090D7A2 /* Goals+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6792FB40286C286E0090D7A2 /* Goals+CoreDataProperties.swift */; };
+		6792FB4F286C286E0090D7A2 /* Balance+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6792FB41286C286E0090D7A2 /* Balance+CoreDataClass.swift */; };
+		6792FB50286C286E0090D7A2 /* Balance+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6792FB42286C286E0090D7A2 /* Balance+CoreDataProperties.swift */; };
+		6792FB51286C286E0090D7A2 /* HistoryMission+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6792FB43286C286E0090D7A2 /* HistoryMission+CoreDataClass.swift */; };
+		6792FB52286C286E0090D7A2 /* HistoryMission+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6792FB44286C286E0090D7A2 /* HistoryMission+CoreDataProperties.swift */; };
 		67FC2AC62863370E001729BB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC2AC42863370E001729BB /* HomeViewController.swift */; };
 		67FC2AC72863370E001729BB /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67FC2AC52863370E001729BB /* HomeViewController.xib */; };
 		67FC2ACE28633F83001729BB /* FirstRowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC2ACC28633F83001729BB /* FirstRowTableViewCell.swift */; };
@@ -113,6 +127,20 @@
 		6787C40A2853445E00BDBDCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6787C40D2853445E00BDBDCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6787C40F2853445E00BDBDCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6792FB37286C286E0090D7A2 /* HistoryBalance+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HistoryBalance+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6792FB38286C286E0090D7A2 /* HistoryBalance+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HistoryBalance+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6792FB39286C286E0090D7A2 /* Level+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Level+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6792FB3A286C286E0090D7A2 /* Level+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Level+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6792FB3B286C286E0090D7A2 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6792FB3C286C286E0090D7A2 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6792FB3D286C286E0090D7A2 /* Mission+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mission+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6792FB3E286C286E0090D7A2 /* Mission+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Mission+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6792FB3F286C286E0090D7A2 /* Goals+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Goals+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6792FB40286C286E0090D7A2 /* Goals+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Goals+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6792FB41286C286E0090D7A2 /* Balance+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Balance+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6792FB42286C286E0090D7A2 /* Balance+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Balance+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6792FB43286C286E0090D7A2 /* HistoryMission+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HistoryMission+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6792FB44286C286E0090D7A2 /* HistoryMission+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HistoryMission+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		67FC2AC42863370E001729BB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		67FC2AC52863370E001729BB /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		67FC2ACC28633F83001729BB /* FirstRowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstRowTableViewCell.swift; sourceTree = "<group>"; };
@@ -251,6 +279,7 @@
 		6787C3FD2853445D00BDBDCD /* Mini Challenge 2 Team 16 */ = {
 			isa = PBXGroup;
 			children = (
+				6792FB36286C1FC20090D7A2 /* Core Data Model */,
 				67FC2ABF286334B1001729BB /* Home */,
 				A22AFBDF2865CC6600EE6CDC /* Mission */,
 				A22AFBD62862E26A00EE6CDC /* Journal */,
@@ -273,6 +302,27 @@
 				A22AFBDD2865B3D000EE6CDC /* StaticValues.swift */,
 			);
 			path = "Mini Challenge 2 Team 16";
+			sourceTree = "<group>";
+		};
+		6792FB36286C1FC20090D7A2 /* Core Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				6792FB37286C286E0090D7A2 /* HistoryBalance+CoreDataClass.swift */,
+				6792FB38286C286E0090D7A2 /* HistoryBalance+CoreDataProperties.swift */,
+				6792FB39286C286E0090D7A2 /* Level+CoreDataClass.swift */,
+				6792FB3A286C286E0090D7A2 /* Level+CoreDataProperties.swift */,
+				6792FB3B286C286E0090D7A2 /* Person+CoreDataClass.swift */,
+				6792FB3C286C286E0090D7A2 /* Person+CoreDataProperties.swift */,
+				6792FB3D286C286E0090D7A2 /* Mission+CoreDataClass.swift */,
+				6792FB3E286C286E0090D7A2 /* Mission+CoreDataProperties.swift */,
+				6792FB3F286C286E0090D7A2 /* Goals+CoreDataClass.swift */,
+				6792FB40286C286E0090D7A2 /* Goals+CoreDataProperties.swift */,
+				6792FB41286C286E0090D7A2 /* Balance+CoreDataClass.swift */,
+				6792FB42286C286E0090D7A2 /* Balance+CoreDataProperties.swift */,
+				6792FB43286C286E0090D7A2 /* HistoryMission+CoreDataClass.swift */,
+				6792FB44286C286E0090D7A2 /* HistoryMission+CoreDataProperties.swift */,
+			);
+			path = "Core Data Model";
 			sourceTree = "<group>";
 		};
 		67FC2ABF286334B1001729BB /* Home */ = {
@@ -438,23 +488,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6792FB46286C286E0090D7A2 /* HistoryBalance+CoreDataProperties.swift in Sources */,
 				1D4C0722286456DB00E2E9D6 /* InputIncomeViewController.swift in Sources */,
 				A29DCA752860646000D67F77 /* JournalViewController.swift in Sources */,
 				F6D7458128608A270062DF61 /* OnboardingInputViewController.swift in Sources */,
+				6792FB4B286C286E0090D7A2 /* Mission+CoreDataClass.swift in Sources */,
 				6787C4032853445D00BDBDCD /* ViewController.swift in Sources */,
 				67FC2ADA28645463001729BB /* SecondRowTableViewCell.swift in Sources */,
 				A22AFBD92864208B00EE6CDC /* JournalTableViewCell.swift in Sources */,
+				6792FB48286C286E0090D7A2 /* Level+CoreDataProperties.swift in Sources */,
 				A22AFBE42865D3E900EE6CDC /* MissionCollectionViewCell.swift in Sources */,
+				6792FB4D286C286E0090D7A2 /* Goals+CoreDataClass.swift in Sources */,
 				F6C4123E2861D51000949181 /* InputGoalViewController.swift in Sources */,
 				6787C4092853445D00BDBDCD /* Mini_Challenge_2_Team_16.xcdatamodeld in Sources */,
 				1DCA247A28699ADB0094FD20 /* InputExpenseViewController.swift in Sources */,
 				A29DCA772860647D00D67F77 /* MissionViewController.swift in Sources */,
 				67FC2ACE28633F83001729BB /* FirstRowTableViewCell.swift in Sources */,
+				6792FB49286C286E0090D7A2 /* Person+CoreDataClass.swift in Sources */,
 				A29DCA732860632600D67F77 /* OverviewViewController.swift in Sources */,
 				1D4C06E62860563600E2E9D6 /* OnboardingViewController.swift in Sources */,
+				6792FB51286C286E0090D7A2 /* HistoryMission+CoreDataClass.swift in Sources */,
 				A22AFBDC28643ECA00EE6CDC /* JournalHeaderView.swift in Sources */,
+				6792FB47286C286E0090D7A2 /* Level+CoreDataClass.swift in Sources */,
 				F6C412402861D55C00949181 /* InputStartingBalanceViewController.swift in Sources */,
 				F6C4123C2861D4C500949181 /* InputNameViewController.swift in Sources */,
+				6792FB4C286C286E0090D7A2 /* Mission+CoreDataProperties.swift in Sources */,
+				6792FB50286C286E0090D7A2 /* Balance+CoreDataProperties.swift in Sources */,
+				6792FB4A286C286E0090D7A2 /* Person+CoreDataProperties.swift in Sources */,
 				6787C3FF2853445D00BDBDCD /* AppDelegate.swift in Sources */,
 				67FC2AE82865AC3A001729BB /* GoalsCollectionViewCell.swift in Sources */,
 				A22AFBDE2865B3D000EE6CDC /* StaticValues.swift in Sources */,
@@ -462,9 +522,13 @@
 				67FC2AE42865AA09001729BB /* FourthRowTableViewCell.swift in Sources */,
 				67FC2ADE28659CA9001729BB /* ThirdRowTableViewCell.swift in Sources */,
 				1D4C071A2860969500E2E9D6 /* OnboardingSlide.swift in Sources */,
+				6792FB4F286C286E0090D7A2 /* Balance+CoreDataClass.swift in Sources */,
 				A22AFBE72869681000EE6CDC /* Mission.swift in Sources */,
+				6792FB52286C286E0090D7A2 /* HistoryMission+CoreDataProperties.swift in Sources */,
+				6792FB45286C286E0090D7A2 /* HistoryBalance+CoreDataClass.swift in Sources */,
 				1D4C071C2860A27600E2E9D6 /* OnboardingCollectionViewCell.swift in Sources */,
 				6787C4012853445D00BDBDCD /* SceneDelegate.swift in Sources */,
+				6792FB4E286C286E0090D7A2 /* Goals+CoreDataProperties.swift in Sources */,
 				A22AFBD52862E18F00EE6CDC /* Journal.swift in Sources */,
 				67FC2AC62863370E001729BB /* HomeViewController.swift in Sources */,
 			);

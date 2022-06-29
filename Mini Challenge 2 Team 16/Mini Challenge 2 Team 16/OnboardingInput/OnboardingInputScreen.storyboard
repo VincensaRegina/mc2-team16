@@ -30,7 +30,7 @@
                                         <fragment content="Get Started">
                                             <attributes>
                                                 <color key="NSColor" red="1" green="1" blue="0.99999994039999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="20" name="CeraRoundPro-Bold"/>
+                                                <font key="NSFont" metaFont="system" size="20"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
@@ -46,13 +46,13 @@
                                 <rect key="frame" x="16" y="495" width="382" height="100"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zxc-Uc-6D1">
-                                        <rect key="frame" x="106.5" y="0.0" width="169.5" height="37.5"/>
+                                        <rect key="frame" x="109.5" y="0.0" width="163" height="38.5"/>
                                         <color key="tintColor" red="0.97188752889999996" green="0.58105498550000001" blue="0.29833316799999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <attributedString key="attributedText">
                                             <fragment content="Welcome to">
                                                 <attributes>
                                                     <color key="NSColor" red="0.97188752889999996" green="0.58105498550000001" blue="0.29833316799999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <font key="NSFont" size="32" name="CeraRoundPro-Bold"/>
+                                                    <font key="NSFont" metaFont="system" size="32"/>
                                                     <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                 </attributes>
                                             </fragment>
@@ -60,12 +60,12 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SCx-fK-bAS">
-                                        <rect key="frame" x="93.5" y="53.5" width="195" height="46.5"/>
+                                        <rect key="frame" x="97" y="54.5" width="188" height="45.5"/>
                                         <attributedString key="attributedText">
                                             <fragment content="STASHY!">
                                                 <attributes>
                                                     <color key="NSColor" red="0.97188752889999996" green="0.58105498550000001" blue="0.29833316799999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <font key="NSFont" size="48" name="CeraRoundPro-Bold"/>
+                                                    <font key="NSFont" metaFont="system" size="48"/>
                                                     <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                 </attributes>
                                             </fragment>
@@ -111,7 +111,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b8E-1r-8d4">
-                                <rect key="frame" x="92" y="382.5" width="230" height="55"/>
+                                <rect key="frame" x="92" y="383.5" width="230" height="55"/>
                                 <color key="backgroundColor" red="0.97188752889999996" green="0.58105498550000001" blue="0.29833316799999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="MNV-cg-sUP"/>
@@ -124,7 +124,7 @@
                                         <fragment content="Next">
                                             <attributes>
                                                 <color key="NSColor" red="1" green="1" blue="0.99999994039999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="20" name="CeraRoundPro-Bold"/>
+                                                <font key="NSFont" metaFont="system" size="20"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
@@ -134,12 +134,12 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vge-bs-Tm9">
-                                <rect key="frame" x="33" y="202" width="348" height="37.5"/>
+                                <rect key="frame" x="33" y="202" width="348" height="38.5"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Tell us your name!">
                                         <attributes>
                                             <color key="NSColor" red="0.97188752889999996" green="0.58105498550000001" blue="0.29833316799999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="32" name="CeraRoundPro-Bold"/>
+                                            <font key="NSFont" metaFont="system" size="32"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -147,7 +147,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="56n-H9-MRg">
-                                <rect key="frame" x="32" y="285.5" width="350" height="50"/>
+                                <rect key="frame" x="32" y="286.5" width="350" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="qrA-yx-a2x"/>
                                 </constraints>
@@ -188,7 +188,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LSN-HD-Jxu">
-                                <rect key="frame" x="92" y="383" width="230" height="55"/>
+                                <rect key="frame" x="92" y="384.5" width="230" height="55"/>
                                 <color key="backgroundColor" red="0.97188752889999996" green="0.58105498550000001" blue="0.29833316799999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="230" id="Jw1-fe-uj6"/>
@@ -200,7 +200,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="Next">
                                             <attributes>
-                                                <font key="NSFont" size="20" name="CeraRoundPro-Bold"/>
+                                                <font key="NSFont" metaFont="system" size="20"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
@@ -210,12 +210,12 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uhc-uq-TJt">
-                                <rect key="frame" x="33" y="165" width="348" height="75"/>
+                                <rect key="frame" x="33" y="165" width="348" height="76.5"/>
                                 <attributedString key="attributedText">
                                     <fragment content="What do you want to buy right now">
                                         <attributes>
                                             <color key="NSColor" red="0.97188752889999996" green="0.58105498550000001" blue="0.29833316799999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="32" name="CeraRoundPro-Bold"/>
+                                            <font key="NSFont" metaFont="system" size="32"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -223,7 +223,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7EQ-5c-NZc">
-                                <rect key="frame" x="32" y="286" width="350" height="50"/>
+                                <rect key="frame" x="32" y="287.5" width="350" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Hv3-Yo-clv"/>
                                 </constraints>
@@ -264,7 +264,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8dF-LY-idD">
-                                <rect key="frame" x="92" y="383" width="230" height="55"/>
+                                <rect key="frame" x="92" y="384.5" width="230" height="55"/>
                                 <color key="backgroundColor" red="0.97188752889999996" green="0.58105498550000001" blue="0.29833316799999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="SSQ-Nj-FkX"/>
@@ -276,7 +276,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="Save">
                                             <attributes>
-                                                <font key="NSFont" size="20" name="CeraRoundPro-Bold"/>
+                                                <font key="NSFont" metaFont="system" size="20"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
@@ -286,12 +286,12 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aJV-lO-NX3">
-                                <rect key="frame" x="45" y="165" width="324" height="75"/>
+                                <rect key="frame" x="45" y="165" width="324" height="76.5"/>
                                 <attributedString key="attributedText">
                                     <fragment content="How much money do you have?">
                                         <attributes>
                                             <color key="NSColor" red="0.97188752889999996" green="0.58105498550000001" blue="0.29833316799999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="32" name="CeraRoundPro-Bold"/>
+                                            <font key="NSFont" metaFont="system" size="32"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -299,7 +299,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YhH-LR-xuq">
-                                <rect key="frame" x="32" y="286" width="350" height="50"/>
+                                <rect key="frame" x="32" y="287.5" width="350" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="4ep-DQ-udg"/>
                                 </constraints>
@@ -334,7 +334,6 @@
         <!--Navigation Controller-->
         <scene sceneID="dq4-Oo-4L9">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="wBj-rL-aJO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="cVA-Ul-w2J" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="db9-wf-wGU">
@@ -346,6 +345,7 @@
                         <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="2Xu-q5-2Lf"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wBj-rL-aJO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="34.782608695652179" y="93.75"/>
         </scene>
