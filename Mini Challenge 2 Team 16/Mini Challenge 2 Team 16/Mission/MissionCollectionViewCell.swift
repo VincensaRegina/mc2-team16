@@ -16,7 +16,7 @@ class MissionCollectionViewCell: UICollectionViewCell {
     func setup(with mission: MissionWinnow) {
         imgIcon.image = mission.icon
         txtName.text = mission.name
-        txtReward.text = String(format: "Rp %.2f %@", locale: Locale.current, mission.reward, "")
+        txtReward.text = String(format: "Rp %.0f %@", locale: Locale.current, mission.reward, "")
     }
     
     override func awakeFromNib() {
