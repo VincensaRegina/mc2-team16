@@ -1,4 +1,60 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21D62" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Balance" representedClassName="Balance" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="historyBalance" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="totalMoney" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="goalsBalance" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Goals" inverseName="goalsBalance" inverseEntity="Goals"/>
+        <relationship name="history" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="HistoryBalance" inverseName="history" inverseEntity="HistoryBalance"/>
+        <relationship name="peopleBalance" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Person" inverseName="peopleBalance" inverseEntity="Person"/>
+    </entity>
+    <entity name="Goals" representedClassName="Goals" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="price" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="progress" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="goalsBalance" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Balance" inverseName="goalsBalance" inverseEntity="Balance"/>
+        <relationship name="levelGoals" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Level" inverseName="levelGoals" inverseEntity="Level"/>
+        <relationship name="peopleGoals" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Person" inverseName="peopleGoals" inverseEntity="Person"/>
+    </entity>
+    <entity name="HistoryBalance" representedClassName="HistoryBalance" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="expenses" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="income" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="history" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Balance" inverseName="history" inverseEntity="Balance"/>
+        <relationship name="historyLevel" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Level" inverseName="historyLevel" inverseEntity="Level"/>
+    </entity>
+    <entity name="HistoryMission" representedClassName="HistoryMission" syncable="YES">
+        <attribute name="emoji" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="reward" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Level" representedClassName="Level" syncable="YES">
+        <attribute name="progressBarLevel" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="historyLevel" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="HistoryBalance" inverseName="historyLevel" inverseEntity="HistoryBalance"/>
+        <relationship name="levelGoals" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Goals" inverseName="levelGoals" inverseEntity="Goals"/>
+        <relationship name="peopleLevel" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Person" inverseName="peopleLevel" inverseEntity="Person"/>
+    </entity>
+    <entity name="Mission" representedClassName="Mission" syncable="YES">
+        <attribute name="emoji" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="reward" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Person" representedClassName="Person" syncable="YES">
+        <attribute name="balanceInPerson" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="goalsInPerson" optional="YES" attributeType="String"/>
+        <attribute name="levelInPerson" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="peopleBalance" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Balance" inverseName="peopleBalance" inverseEntity="Balance"/>
+        <relationship name="peopleGoals" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Goals" inverseName="peopleGoals" inverseEntity="Goals"/>
+        <relationship name="peopleLevel" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Level" inverseName="peopleLevel" inverseEntity="Level"/>
+    </entity>
+    <elements>
+        <element name="Person" positionX="-54" positionY="-9" width="128" height="134"/>
+        <element name="Balance" positionX="-27" positionY="45" width="128" height="119"/>
+        <element name="Goals" positionX="0" positionY="54" width="128" height="119"/>
+        <element name="HistoryBalance" positionX="18" positionY="90" width="128" height="104"/>
+        <element name="Level" positionX="36" positionY="135" width="128" height="89"/>
+        <element name="Mission" positionX="-9" positionY="90" width="128" height="74"/>
+        <element name="HistoryMission" positionX="0" positionY="99" width="128" height="74"/>
+    </elements>
 </model>
