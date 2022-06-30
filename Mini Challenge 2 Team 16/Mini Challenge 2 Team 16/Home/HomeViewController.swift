@@ -34,7 +34,7 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         setupTableView()
         let appearance = UINavigationBarAppearance()
-        appearance.backgroundColor = .darkGray
+        appearance.backgroundImage = navbarImage
         navigationController?.navigationBar.standardAppearance = appearance
         navigationController?.navigationBar.compactAppearance = appearance
         navigationController?.navigationBar.scrollEdgeAppearance = appearance
@@ -49,12 +49,12 @@ class HomeViewController: UIViewController {
             tableView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 32)
         ])
         tableView.separatorStyle = .none
+        tableView.showsVerticalScrollIndicator = false
         tableView.dataSource = self
         tableView.delegate = self
     }
     
     
-
 }
 
 extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
@@ -87,9 +87,13 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
         if indexPath.row == 0 {
             return 100
         }
+        if indexPath.row == 1 {
+            return 250
+        }
         if indexPath.row == 2 {
-            return 170
+            return 120
         }
         return 200
     }
+    
 }

@@ -8,6 +8,10 @@
 import UIKit
 
 class InputNameViewController: UIViewController {
+    
+    let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+
+    
 
     @IBOutlet var namefield: UITextField!
     @IBOutlet var namenextbutton: UIButton!

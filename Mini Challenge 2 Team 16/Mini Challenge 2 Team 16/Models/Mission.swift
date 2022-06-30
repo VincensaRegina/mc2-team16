@@ -8,17 +8,17 @@
 import Foundation
 import UIKit
 
-struct Mission {
+struct MissionWinnow {
     var name: String
     var icon: UIImage?
     var reward: Float
 }
 
-func missionSeeder() -> [Mission] {
+func missionSeeder() -> [MissionWinnow] {
     
     return [
-        Mission(name: "Join a soccer club", icon: UIImage(named: "stashy"), reward: 5000),
-        Mission(name: "Get perfect score on Math", icon: UIImage(named: "onboarding1"), reward: 5000)
+        MissionWinnow(name: "Join a soccer club", icon: UIImage(named: "stashy"), reward: 5000),
+        MissionWinnow(name: "Get perfect score on Math", icon: UIImage(named: "onboarding1"), reward: 5000)
         
     ]
 }

@@ -13,7 +13,7 @@ class MissionCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var txtName: UILabel!
     @IBOutlet weak var txtReward: UILabel!
     
-    func setup(with mission: Mission) {
+    func setup(with mission: MissionWinnow) {
         imgIcon.image = mission.icon
         txtName.text = mission.name
         txtReward.text = String(format: "Rp %.2f %@", locale: Locale.current, mission.reward, "")
