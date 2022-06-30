@@ -18,7 +18,12 @@ class ThirdRowTableViewCell: UITableViewCell{
 
     
     @IBAction func incomeButtonPressed(_ sender: Any) {
-        
+        let inputStoryboard = UIStoryboard(name: "InputIncome", bundle: nil)
+        let inputIncomeVC = inputStoryboard.instantiateViewController(withIdentifier: "InputExpenseViewController")
+        let homeStoryboard = UIStoryboard(name: "InputIncome", bundle: nil)
+        let homeVC = homeStoryboard.instantiateViewController(withIdentifier: "InputExpenseViewController")
+        let homeViewController = HomeViewController()
+        homeViewController.present(inputIncomeVC, animated: true, completion: nil)
         
     }
     
