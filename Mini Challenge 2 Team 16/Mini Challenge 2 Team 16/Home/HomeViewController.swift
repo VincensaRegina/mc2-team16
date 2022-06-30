@@ -96,4 +96,13 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
         return 200
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        if indexPath.row == 2 {
+            let inputStoryboard = UIStoryboard(name: "InputIncome", bundle: nil)
+            let inputIncomeVC = inputStoryboard.instantiateViewController(withIdentifier: "InputExpenseViewController")
+            self.present(inputIncomeVC, animated: true, completion: nil)
+        }
+    }
+    
 }
